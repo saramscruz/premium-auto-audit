@@ -146,7 +146,7 @@ Not confirmed for "Guardar Configuração". "Link do seu BMW" confirmed frictionle
 
 - [x] Mobile end screen — iX3 no Reservar confirmed 27/06/2026. i4 Reservar confirmed 27/06/2026.
 - [x] Guardar Configuração requires BMW ID — confirmed 27/06/2026 (full-page redirect to customer.bmwgroup.com/oneid/)
-- [ ] Verify whether iX3 Reserve CTA has been added since 12/06/2026 observation (configurators change)
+- [x] Verify whether iX3 Reserve CTA has been added since 12/06/2026 observation — CONFIRMED NO CHANGE. End screen checked 27/06/2026: Pedido de Proposta, Resumo, Test Drive, Link do seu BMW, Guardar Configuracao. No Reserve CTA. Gap holds. (configurators change)
 - [ ] Add exact query string and date to BMW brand 83 vs Mercedes 76 Trends comparison
 - [ ] BMW Group Annual Report 2024 — direct sales Portugal status confirmed as not live
 
