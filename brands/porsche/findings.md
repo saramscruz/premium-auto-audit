@@ -105,7 +105,14 @@ Not observed.
 Classification: **Dealer request only. Deliberate high-touch positioning at 108.016€+.**
 
 ### 8. Mobile parity
-Not observed — outstanding.
+Confirmed at 390px — 27/06/2026:
+- Preço Total 108.016,00€ ?
+- Solicitar este veículo (black, primary, full width) ?
+- Guardar (grey, secondary) ?
+- Criar Porsche Code (grey, secondary) ?
+- Descarregar a configuração (PDF) ?
+- Sticky bottom bar: 108.016€ + Solicitar veículo (black) ?
+Full parity with desktop confirmed.
 
 ### 9. Paid entry point
 Not observed.
@@ -129,7 +136,8 @@ Porsche Code and PDF confirmed frictionless. Guardar not confirmed.
 
 ## Outstanding
 
-- [ ] Mobile end screen — Taycan at 390px
+- [x] Mobile end screen — Taycan Solicitar este veículo confirmed 27/06/2026
 - [x] Guardar requires Porsche ID — confirmed 27/06/2026 (modal with Iniciar sessão e guardar a configuração)
 - [ ] Porsche AG Annual Report 2024
+
 

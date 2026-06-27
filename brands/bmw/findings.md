@@ -104,7 +104,23 @@ Classification:
 - i4: **Reservation available** — "Reservar" CTA present
 
 ### 8. Mobile parity
-Not observed. Outstanding — requires mobile observation session.
+iX3 step 14/14 at 390px — confirmed 27/06/2026:
+- Pedido de Proposta ?
+- Resumo ?
+- Test Drive ?
+- No Reservar CTA ? — absent on mobile as on desktop
+- Guardar Configuração (blue, primary) ?
+- Link do seu BMW ?
+
+i4 step 12/12 at 390px — confirmed 27/06/2026:
+- Pedido de Proposta ?
+- Reservar ? — present on mobile as on desktop
+- Resumo ?
+- Test Drive ?
+- Viaturas Disponíveis ?
+- Link do seu BMW ?
+
+The iX3 vs i4 CTA gap holds on both devices. Not a mobile rendering issue — a product-level deployment decision.
 
 ### 9. Paid entry point
 Not observed.
@@ -128,7 +144,7 @@ Not confirmed for "Guardar Configuração". "Link do seu BMW" confirmed frictionle
 
 ## Outstanding
 
-- [ ] Mobile end screen observation — iX3 and i4 at 390px
+- [x] Mobile end screen — iX3 no Reservar confirmed 27/06/2026. i4 Reservar confirmed 27/06/2026.
 - [x] Guardar Configuração requires BMW ID — confirmed 27/06/2026 (full-page redirect to customer.bmwgroup.com/oneid/)
 - [ ] Verify whether iX3 Reserve CTA has been added since 12/06/2026 observation (configurators change)
 - [ ] Add exact query string and date to BMW brand 83 vs Mercedes 76 Trends comparison
@@ -139,5 +155,6 @@ Not confirmed for "Guardar Configuração". "Link do seu BMW" confirmed frictionle
 - BMW i4 average interest: 38
 - iX3 outpaces i4 on search demand despite lacking the Reserve CTA that i4 has. The higher-demand model has the weaker digital commitment option.
 - Query: "BMW iX3" vs "BMW i4" · Web Search · Portugal · Past year · Observed 26/06/2026
+
 
 
