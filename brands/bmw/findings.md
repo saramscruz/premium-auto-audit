@@ -133,3 +133,10 @@ Not confirmed for "Guardar Configuração". "Link do seu BMW" confirmed friction
 - [ ] Verify whether iX3 Reserve CTA has been added since 12/06/2026 observation (configurators change)
 - [ ] Add exact query string and date to BMW brand 83 vs Mercedes 76 Trends comparison
 - [ ] BMW Group Annual Report 2024 — direct sales Portugal status confirmed as not live
+
+### iX3 vs i4 — average interest comparison (26/06/2026)
+- BMW iX3 average interest: 48
+- BMW i4 average interest: 38
+- iX3 outpaces i4 on search demand despite lacking the Reserve CTA that i4 has. The higher-demand model has the weaker digital commitment option.
+- Query: "BMW iX3" vs "BMW i4" · Web Search · Portugal · Past year · Observed 26/06/2026
+
