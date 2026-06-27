@@ -1,70 +1,39 @@
 ﻿# BMW iX3 — Trends Figure Inconsistency
 
-**Status:** OPEN BLOCKER  
-**Created:** June 2026  
-**Must be resolved before:** any further work on the BMW section
+**Status:** RESOLVED — 27/06/2026  
+**Correct figure:** +750%  
+**Source:** trends-ix3-web-queries-PT-20260612.png, top queries panel, row 3  
+**Query:** "ix3 2026" — web search, Portugal, past year  
+**Observation date:** 12/06/2026  
 
 ---
 
-## The problem
+## Resolution
 
-The BMW audit contains two different figures for iX3 search growth in Portugal:
+The +750% figure appears in the original 12/06/2026 observation screenshot (trends-ix3-web-queries-PT-20260612.png), top queries panel, row 3: "ix3 2026" +750%.
 
-- Location A: +750%
-- Location B: +1,050%
+The +1,050% figure does not appear in any of the seven Trends screenshots. It was a copy-paste error with no source record.
 
-These cannot both be correct. One is a copy-paste error.
+## Re-verification — 26/06/2026
 
----
+A second observation session on 26/06/2026 shows all iX3-related queries at BREAKOUT status (>5,000% growth), confirming that demand has accelerated since the original observation. The +750% figure from June 12 was therefore a conservative snapshot of a trend that has since exceeded the measurable threshold.
 
-## Resolution protocol
+## Additional figures from original observation (12/06/2026, web search PT)
 
-Do not guess. Do not pick the lower figure as conservative. Do not average.
+| Query | Type | Change |
+|-------|------|--------|
+| ix3 2026 | Top query | +750% |
+| ix3 bmw 2026 | Top query | +800% |
+| bmw neue klasse ix3 | Top query | +130% |
+| bmw ix3 2026 | Rising query | BREAKOUT |
+| bmw ix3 neue klasse | Rising query | BREAKOUT |
 
-**Step 1:** Open your original fieldwork session — screenshot archive or notes from the BMW Trends observation.
+## iX3 generation note
 
-**Step 2:** Find the figure that was recorded first, before any copying or writing.
+Both observation sessions postdate the Neue Klasse iX3 launch in Portugal (March 2026). Queries reflect blended interest across both generations, with "bmw ix3 neue klasse" appearing as a distinct rising query — confirming the new generation is driving incremental search volume.
 
-**Step 3:** That figure is correct. Use it everywhere. Delete the other one.
+## Asset references
 
-**Step 4:** Confirm the exact query string used (e.g. "bmw ix3") and the exact date of observation.
-
-**Step 5:** Update the BMW section with: the single correct figure + the query string + the observation date.
-
----
-
-## Complicating factor — two iX3 generations
-
-As of March 2026, there are two distinct iX3 models:
-
-- **G08** — the original iX3, discontinued
-- **Neue Klasse iX3** — launched Portugal March 2026
-
-If your original observation predates March 2026, you were querying interest in the G08. The figure is still valid but must specify which generation. A single query for "bmw ix3" after March 2026 may reflect blended interest across both.
-
-**Action:** Check your observation date. If it predates March 2026, add "(G08, pre-Neue Klasse launch)" as a note. If it postdates March 2026, note that the figure reflects blended generation interest.
-
----
-
-## If the original screenshot is lost
-
-Re-run the query today. Record:
-- Date of re-verification
-- Exact query string
-- Figure returned
-
-Note in the sources log: "Original observation date not recoverable. Figure re-verified [date]."
-
-This is honest and acceptable. A documented re-verification is stronger than a guessed conservative figure with a warning tag.
-
----
-
-## Post-resolution checklist
-
-- [ ] Single figure confirmed from source record
-- [ ] Query string recorded
-- [ ] Observation date recorded
-- [ ] iX3 generation noted
-- [ ] Both instances in BMW section updated to the single correct figure
-- [ ] Sources log updated
-- [ ] This file updated with STATUS: RESOLVED and the confirmed figure
+- Original: assets/bmw/trends/trends-ix3-web-queries-PT-20260612.png
+- Re-verification: assets/bmw/trends/trends-ix3-web-PT-20260626.png
+- Re-verification queries: assets/bmw/trends/trends-ix3-queries-web-PT-20260626.png
