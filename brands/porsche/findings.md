@@ -1,77 +1,117 @@
 ﻿# Porsche — Brand Findings
 
-**Status:** Configurator observation complete — 27/06/2026. Trends session outstanding.
-**Model walked:** Taycan 2027 (Berlina Desportiva, base)
-**URL:** configurator.porsche.com/pt-PT/mode/model/Y1AAI1
+**Status:** Configurator observation complete 27/06/2026. Trends complete 27/06/2026.
+**Model walked:** Taycan 2027 (Berlina Desportiva, base) — 108.016€
 **Observation date:** 27/06/2026
+**Trends session date:** 27/06/2026
 **Inclusion decision:** Short contextual section — not a full parallel audit
 
 ---
 
 ## PRD decision gate — outcome
 
-Per PRD Section 7.5: if the Porsche section cannot produce a finding that advances the thesis, reduce it to a one-paragraph contextual note.
-
-**Decision: Include as a short contextual section.** The finding advances the thesis by contrast — Porsche defines the outer boundary where the thesis stops applying. At 108.016€ base price, the absence of a digital commitment CTA is not a gap. It is a deliberate positioning choice. The buyer who configures a 108.016€ Taycan is not expected to reserve it online. This distinction — between a brand that cannot offer digital commitment and one that has chosen not to — is itself analytically valuable.
+Include as short contextual section. Porsche defines the outer boundary where the thesis stops applying. At 108.016€+ the absence of a digital commitment CTA is deliberate positioning, not a gap. The buyer who configures a 108.016€ Taycan is not expected to reserve it online.
 
 ---
 
 ## Distinctive finding
 
-Porsche is the only brand in the comparison where the dealer-form-only end CTA is clearly intentional rather than infrastructural. The configurator is the most elaborate in the comparison (360° view, equipment search, AI configuration recommendations, Porsche Code share system, multiple image angles) — the investment in the configurator experience is high. The absence of a purchase CTA is therefore a choice, not an oversight.
+Porsche is the only brand where the dealer-form-only end CTA is clearly intentional. The configurator is the most elaborate in the comparison — 360° view, equipment search box, AI configuration recommendations, Porsche Code share system, multiple image angles. High investment in the configurator experience with no purchase CTA at the end is a choice, not an oversight.
 
-"O seu sonho tornado realidade." — the end screen headline is brand language, not transactional. No other brand in the audit uses this register at the conversion point.
+"O seu sonho tornado realidade." — brand language at the conversion point. No other brand uses this register at checkout.
+
+Taycan buyers cross-shop genuine luxury (Bentley, Lamborghini Urus both BREAKOUT in Taycan rising queries) — a different competitive set than any other brand in the audit.
+
+**Observation note:** Configurator walk was for Taycan. Porsche Macan has higher average search interest in PT (50 vs Taycan 42). For document accuracy: observation is Taycan, highest-demand model is Macan.
 
 ---
 
-## Checkpoint findings — 27/06/2026
+## Search demand — Google Trends PT, 27/06/2026
+
+### Model comparison
+| Query | Average interest | Observation date |
+|-------|-----------------|-----------------|
+| Porsche Macan | 50 | 27/06/2026 |
+| Porsche Taycan | 42 | 27/06/2026 |
+| Mercedes CLA (reference) | 75 | 27/06/2026 |
+
+Query strings: "Porsche Taycan", "Porsche Macan", "Mercedes CLA" · Web Search · Portugal · Past year
+
+**Macan outpaces Taycan** (50 vs 42) — Macan Electric is the higher-demand Porsche in PT. Taycan is the observed model but Macan has higher sustained interest.
+
+### Taycan — key figures (query: "Porsche Taycan", web, 27/06/2026)
+- Average interest: 42 (vs Mercedes CLA 75 — CLA has 3× Taycan interest)
+- "porsche taycan 2025" → +250% (top queries)
+- "porsche taycan price" → +150% (top queries)
+- "porsche taycan cross turismo" → +4% (top queries)
+- "bmw" → +10% in Taycan top queries
+- "porsche taycan cross turismo 4s" → BREAKOUT (rising)
+- "bentley" → BREAKOUT (rising) — luxury competitive signal
+- "lamborghini urus" → BREAKOUT (rising) — luxury competitive signal
+- "porsche taycan 2027" → **+3,250%** (rising) — highest measurable Porsche figure
+- "porsche taycan specs" → +250% (rising)
+- "porsche taycan 2025" → +250% (rising)
+- "porsche taycan price" → +150% (rising)
+- "bmw i4" → +40% (rising) — performance BEV cross-shopping
+
+**"porsche taycan 2027" at +3,250%** — 2027 model year (observed in configurator) driving exceptional search growth.
+
+**Bentley and Lamborghini Urus BREAKOUT** — Taycan buyers cross-shopping genuine luxury, not just premium. Different competitive set from all other brands in audit.
+
+### Brand-level context (five-brand comparison, 27/06/2026)
+- Porsche brand average interest: 20 (fifth of five brands)
+- Mercedes 86 · BMW 73 · Audi 46 · Volvo 25 · Porsche 20
+
+Porsche at average index 20 operates in a structurally smaller demand tier. This makes the high-touch dealer model rational — fewer buyers, higher value per relationship.
+
+---
+
+## Configurator findings — 27/06/2026
 
 ### 1. Entry CTA
-Homepage: "Descubra os destaques" — brand/lifestyle only, no model or price.
+Homepage: "Descubra os destaques" — brand/lifestyle only. No model or price on homepage.
 Menu → Taycan: "Configurar" (primary, black) + "Veículos Novos e de Re-estreio" (secondary).
+"Aconselhamento e compra" as nav item — purchase framed as advised process.
 No price visible until model selection screen.
 
 ### 2. Configurator structure
-Single-page scroll with persistent right panel. No step counter. Options presented sequentially on scroll: Cores exteriores → further options below. Equipment search box within configurator ("Pesquisar opções de equipamento") — unique in comparison. "Descubra recomendações de configuração" — curated configuration recommendations — unique in comparison.
+Single-page scroll, persistent right panel. No step counter. Equipment search box within configurator — unique in comparison. "Descubra recomendações de configuração" — curated recommendations — unique in comparison.
 
 ### 3. Price visibility
-First appears at model selection screen: Taycan from 108.016€ IVA incluído. Present throughout configurator in header. Final screen shows full price breakdown: Preço Total 108.016,00€ / Preço Base 108.016,00€ / Preço do equipamento 0,00€. Legal note: "Inclui IVA à taxa legal em vigor. Não inclui despesas de legalização."
+First appears at model selection: Taycan from 108.016€ IVA included. Final screen: Preço Total 108.016,00€ / Preço Base 108.016,00€ / Preço do equipamento 0,00€. Legal note: does not include legalisation costs.
 
 ### 4. Stock signal
-"Veículos Novos e de Re-estreio" available from menu level — new and approved pre-owned channel visible before configurator entry. Not observed within configurator flow.
+"Veículos Novos e de Re-estreio" at menu level — new and CPO channel visible before configurator entry.
 
 ### 5. Save mechanism
-Three options at end screen:
-- "Guardar" — bookmark icon, login status not confirmed
-- "Criar Porsche Code" — shareable code, confirmed distinct mechanism
-- "Descarregar a configuração (PDF)" — frictionless, no login
+- "Guardar" — login status not confirmed
+- "Criar Porsche Code" — frictionless shareable code
+- "Descarregar a configuração (PDF)" — frictionless
+- "Carregar configuração existente" — load existing configuration
 
-"Carregar configuração existente" — load existing configuration link also present.
-
-Classification: **Porsche Code (frictionless share) + PDF download (frictionless) + Guardar (login status outstanding).**
+Classification: **Porsche Code (frictionless) + PDF (frictionless). Guardar login status outstanding.**
 
 ### 6. Expiry warning
 Not observed.
 
 ### 7. End screen CTA
 "O seu sonho tornado realidade." — brand headline.
-- **"Solicitar este veículo"** — black filled, primary, full width
+- "Solicitar este veículo" — black filled, primary, full width
 - "Guardar" — secondary
 - "Criar Porsche Code" — secondary
 - "Descarregar a configuração (PDF)" — text link
 - "Carregar configuração existente" — text link
 
-Classification: **Dealer request only. No online reservation. No online purchase.**
-Contextual note: at 108.016€ base price this is deliberate high-touch positioning, not a digital infrastructure gap.
+Classification: **Dealer request only. Deliberate high-touch positioning at 108.016€+.**
 
 ### 8. Mobile parity
-Not observed.
+Not observed — outstanding.
 
 ### 9. Paid entry point
 Not observed.
 
 ### 10. Account requirement
-Configurator completion does not require login. Porsche Code and PDF confirmed frictionless. Guardar login status not confirmed.
+Porsche Code and PDF confirmed frictionless. Guardar not confirmed.
 
 ---
 
@@ -79,17 +119,16 @@ Configurator completion does not require login. Porsche Code and PDF confirmed f
 
 | Dimension | Finding | Evidence |
 |-----------|---------|----------|
-| Configurator end CTA | Dealer request only — "Solicitar este veículo". Deliberate positioning at 108.016€, not infrastructure gap. | Direct observation 27/06/2026 |
-| Save mechanism | Porsche Code (frictionless share) + PDF download (frictionless). Guardar login status outstanding. | Direct observation 27/06/2026 |
-| Search demand vs digital readiness | Trends session outstanding | — |
+| Configurator end CTA | Dealer request — "Solicitar este veículo". Deliberate at 108.016€+. | Direct observation 27/06/2026 |
+| Save mechanism | Porsche Code (frictionless) + PDF (frictionless). Guardar outstanding. | Direct observation 27/06/2026 |
+| Search demand vs digital readiness | Taycan avg 42, Macan avg 50 — CLA has 3× Taycan interest. Dealer request only. | Trends 27/06/2026 + observation |
 | Paid mobile path | Not observed | — |
-| Direct sales status PT | Not live — deliberate high-touch model at this price point | Direct observation 27/06/2026 |
+| Direct sales status PT | Not live — deliberate high-touch model | Direct observation 27/06/2026 |
 
 ---
 
 ## Outstanding
 
-- [ ] Google Trends PT — Taycan and Macan Electric search interest
+- [ ] Mobile end screen — Taycan at 390px
 - [ ] Confirm whether "Guardar" requires login
-- [ ] Mobile end screen observation
-- [ ] Porsche AG Annual Report 2024 — extract direct sales position statement
+- [ ] Porsche AG Annual Report 2024
