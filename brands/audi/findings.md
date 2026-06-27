@@ -1,100 +1,95 @@
 ﻿# Audi — Brand Findings
 
-**Status:** Trends session documented — 26/06/2026. Configurator observation complete — 26/06/2026. Mobile re-walk outstanding.
+**Status:** Complete — re-walk 27/06/2026. Original observation 26/06/2026.
+**Model walked:** Q3 Sportback Advanced — 49.899,35 EUR
+**URLs:** audi.pt/q3/q3-sportback/visao-geral + configurador.audi.pt
+**Observation dates:** 26/06/2026 (original) + 27/06/2026 (re-walk)
 
 ---
 
-## Distinctive finding
+## Distinctive findings
 
-carLOG is the only third-party save mechanism in the comparison. It introduces an external dependency into the re-engagement funnel and adds an expiry warning that no other brand in the audit has surfaced. This is the finding that H2 is built on.
+**1. carLOG third-party save with expiry warning** — confirmed verbatim 27/06/2026. Clicking "Guardar" triggers a carLOG modal: "configurações guardadas podem perder a sua validade, caso existam alterações na gama de produtos." Audi is the only brand in the comparison using a third-party save portal. The expiry warning is the only explicit configuration validity warning in the comparison.
 
-The importrust search parity signal is the second distinctive finding: a third-party grey-market importer ranks at equal average interest (52) to the Audi Q3 itself (52) in Portugal. This is a funnel leakage signal — demand exists but some of it is being captured outside the official Audi digital ecosystem.
+**2. importrust search parity** — a grey-market importer (importrust) has equal average search interest (52) to the Audi Q3 itself (52) in PT. Funnel leakage: demand exists but some is captured outside the official Audi digital ecosystem.
+
+**3. Audi Code — native frictionless save** — "O meu Audi" tab shows a pre-generated Audi Code (e.g. UBMTPA) requiring no login. Audi has both a frictionless native code AND a third-party gated save (carLOG). The carLOG finding remains distinctive — it is the only third-party save in the comparison — but Audi also offers a native frictionless path alongside it.
 
 ---
 
 ## Search demand — Google Trends PT, 26/06/2026
 
-### Model comparison
-| Query | Average interest (past year, PT) | Observation date |
-|-------|----------------------------------|-----------------|
+| Query | Average interest | Observation date |
+|-------|-----------------|-----------------|
 | Audi Q3 | 51 (vs BMW iX3) / 52 (vs importrust) | 26/06/2026 |
 | BMW iX3 (reference) | 39 | 26/06/2026 |
 | importrust | 52 | 26/06/2026 |
 
-Query strings used: "Audi Q3", "Audi Q3 2026", "BMW iX3", "importrust", "importrust audi" · Web Search and YouTube Search · Portugal · Past year
+Query strings: "Audi Q3", "Audi Q3 2026", "BMW iX3", "importrust", "importrust audi" · Web and YouTube · Portugal · Past year
 
-**Primary model for document: Audi Q3** — highest sustained Audi model interest observed.
+**Primary model: Audi Q3** — highest sustained Audi model interest in PT.
 
-### Audi Q3 — key figures (query: "Audi Q3", web, 26/06/2026)
-- Average interest: 51 (vs BMW iX3 39)
-- "audi q3 2026" → +100% (top queries)
-- "audi q3 2025" → +80% (top queries)
-- "novo audi q3" → +40% (top queries)
-- "audi q3 suv" → +80% (top queries)
-- "audi q3 hybrid" → +20% (top queries)
+### Key figures (web, 26/06/2026)
+- "audi q3 2026" → +700% (rising)
 - "audi q3 sportback 2026" → BREAKOUT (rising)
 - "audi q3 e-hybrid" → BREAKOUT (rising)
 - "byd" → BREAKOUT (rising) — Chinese EV competitive signal
-- "tesla model y" → BREAKOUT (rising) — cross-segment competitive signal
-- "audi q3 2026" → +700% (rising)
-- "audi q3 2012" → +100% (rising) — used car demand signal
+- "tesla model y" → BREAKOUT (rising)
+- "audi q3 2026" → +100% (top queries)
+- importrust average index 52 — exact parity with Audi Q3
 
-### Audi Q3 2026 — key figures (query: "Audi Q3 2026", web, 26/06/2026)
-- All queries BREAKOUT: "audi q3 sportback", "audi q3 sportback 2026", "audi q3 2026 dimensions"
-- Highly event-driven spike pattern — new model launch driving demand
-
-### Audi Q3 — YouTube (query: "Audi Q3", YouTube, 26/06/2026)
-- "audi q3 2026" → +600% (top queries)
-- "audi q3 sportback 2026" → BREAKOUT (rising)
-- "audi q3 plug in hybrid 2025" → BREAKOUT (rising)
-- "audi q3 2026" → +600% (rising)
-
-### importrust signal (query: "importrust", web, 26/06/2026)
-- Average interest: 52 — exact parity with Audi Q3 (52)
-- Gradual upward trend over past year
-- "mercedes" → +20% in importrust top queries
-- "tesla" → +40% in importrust rising queries
-- "importrust audi" query: single sharp spike, very recent, low volume overall
-
-**The parity finding:** importrust and Audi Q3 both average 52 in PT over the past year. A third-party grey-market importer is capturing equivalent search volume to Audi's highest-demand model. This is funnel leakage — not all Audi Q3 demand reaches the official Audi PT configurator.
+### Brand-level context (five-brand comparison, 27/06/2026)
+- Audi brand average interest: 46 (third of five)
+- Mercedes 86 · BMW 73 · Audi 46 · Volvo 25 · Porsche 20
 
 ---
 
-## Configurator findings — 26/06/2026
+## Configurator findings
 
 ### 1. Entry CTA
-Direct observation confirmed — CTA present on Q3 model page. Exact label: not recorded. Re-walk required to confirm verbatim label.
+Model listing page: **"Informações"** — grey filled, on each model card. No price on Q3 SUV card.
+Model page (Q3 Sportback): three icon CTAs — **"Configurador"** · "Concessionários" · "Pedido de Informações". No button-style CTA. No price visible on model page.
+Within configurator sticky bar: **"Continuar"** — grey filled, right side.
 
 ### 2. Configurator structure
-Step-based navigation. Exact step count: not recorded in checklist. Re-walk required.
+**6 named tabs** — not numbered sequential steps:
+Modelo · Linha de equipamento · Motorização · Exterior · Equipamento · **O meu Audi**
+Tab-based navigation. "O meu Audi" is the end/summary tab containing save options and end CTA.
+Observed: configurador.audi.pt/cc-pt/pt_PT_AUDI23/A/auv/31B — 27/06/2026
 
 ### 3. Price visibility
-Confirmed present during configuration. Exact step at which price first appears: not recorded. Re-walk required.
+Visible from first configurator screen in sticky bottom bar: 49.899,00 EUR · 803 EUR/mês.
+Real-time update confirmed. Financing monthly value shown alongside price throughout.
 
 ### 4. Stock signal
-Not observed during configuration session.
+Not observed during configurator walk. Original observation 26/06/2026 — not observed.
 
 ### 5. Save mechanism
-carLOG third-party save mechanism with expiry warning — strongest original finding. Confirmed from screenshot: audict-q3-carlog-save-20260626.png
+Three options in "O meu Audi" tab:
+- **"Audi Code UBMTPA"** — pre-generated native code, frictionless, no login required
+- **"Guardar"** → carLOG modal — third-party account required (Registe-se / Iniciar Sessão)
+- **"A sua configuração"** — PDF download, frictionless
 
-Classification: **Third-party portal (carLOG) with expiry warning.**
+carLOG modal copy verbatim: "Importe e guarde a sua configuração no portal do cliente carLOG. Utilize a sua conta carLOG para guardar e gerir as suas configurações pessoais na lista de seleção carLOG. Note-se que as configurações guardadas podem perder a sua validade, caso existam alterações na gama de produtos."
+
+Classification: **Dual save system — native Audi Code (frictionless) + carLOG (third-party, account required). Only brand with third-party save portal in comparison.**
 
 ### 6. Expiry warning
-Confirmed present — visible in carLOG save screenshot. Only brand in comparison with explicit expiry warning on saved configuration.
+**Confirmed present** — in carLOG modal body text: "configurações guardadas podem perder a sua validade, caso existam alterações na gama de produtos." Only brand in comparison with explicit configuration validity warning.
 
 ### 7. End screen CTA
-"Solicitar uma proposta" — dealer form only. Confirmed from screenshots: audict-q3-configurator-end-20260626.png, audict-q3-endscreen-mobile-solicitar-20260626.png
-
+"O meu Audi" tab end CTA: **"Solicitar uma proposta"** — grey filled, left panel and sticky bottom bar.
+Confirmed on both 26/06/2026 (original) and 27/06/2026 (re-walk).
 Classification: **Dealer form only.**
 
 ### 8. Mobile parity
-End screen CTA confirmed on mobile — screenshot audict-q3-endscreen-mobile-solicitar-20260626.png shows "Solicitar uma proposta" on mobile. Full parity confirmed.
+End screen CTA "Solicitar uma proposta" confirmed on mobile from original 26/06/2026 screenshots (audict-q3-endscreen-mobile-solicitar-20260626.png). Full parity confirmed.
 
 ### 9. Paid entry point
 Not observed.
 
 ### 10. Account requirement
-Not recorded. Re-walk required to confirm.
+Configurator completion: no login required. Audi Code: no login. PDF: no login. carLOG Guardar: third-party account required.
 
 ---
 
@@ -102,17 +97,14 @@ Not recorded. Re-walk required to confirm.
 
 | Dimension | Finding | Evidence |
 |-----------|---------|----------|
-| Configurator end CTA | Dealer form only — "Solicitar uma proposta" | Direct observation 26/06/2026 |
-| Save mechanism | Third-party (carLOG) with expiry warning | Direct observation 26/06/2026 |
-| Search demand vs digital readiness | Q3 avg index 51, "audi q3 2026" +700% — dealer form only | Trends 26/06/2026 + observation |
+| Configurator end CTA | Dealer form only — "Solicitar uma proposta" | 26/06/2026 + 27/06/2026 |
+| Save mechanism | Dual — Audi Code (frictionless native) + carLOG (third-party, expiry warning). Only third-party save in comparison. | 26/06/2026 + 27/06/2026 |
+| Search demand vs digital readiness | Q3 avg 51, "audi q3 2026" +700%, importrust parity 52 — dealer form only | Trends 26/06/2026 |
 | Paid mobile path | Not observed | — |
-| Direct sales status PT | Not live — dealer form only | Direct observation 26/06/2026 |
+| Direct sales status PT | Not live — dealer form only | 26/06/2026 + 27/06/2026 |
 
 ---
 
 ## Outstanding
 
-- [ ] Re-walk Q3 configurator: record entry CTA label verbatim, step count, price visibility step, account requirement
-- [ ] Verify whether email-only save option has been added since 26/06/2026 observation
-- [ ] Update observation date on re-walk
-- [ ] Audi Group Annual Report 2024 — extract direct sales status statement
+- [ ] Audi Group Annual Report 2024 — extract direct sales statement
