@@ -1,0 +1,509 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Automotive Digital Audit — Portugal 2026</title>
+  <style>
+    :root {
+      --black: #0a0a0a;
+      --white: #ffffff;
+      --grey-100: #f5f5f5;
+      --grey-300: #d4d4d4;
+      --grey-600: #525252;
+      --accent: #1a1a1a;
+      --warn: #b45309;
+      --ok: #166534;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--black);
+      background: var(--white);
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 6rem;
+    }
+
+    header {
+      border-bottom: 2px solid var(--black);
+      padding-bottom: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      color: var(--grey-600);
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .status-bar {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+      font-size: 0.8rem;
+    }
+
+    .status-bar span {
+      padding: 0.2rem 0.6rem;
+      border-radius: 3px;
+      background: var(--grey-100);
+      color: var(--grey-600);
+    }
+
+    .status-bar .warn { background: #fef3c7; color: var(--warn); }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 1px solid var(--grey-300);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 1.5rem 0 0.75rem;
+    }
+
+    p { margin-bottom: 1rem; color: var(--grey-600); }
+
+    .placeholder {
+      border: 1px dashed var(--grey-300);
+      border-radius: 4px;
+      padding: 1.5rem;
+      color: var(--grey-600);
+      font-size: 0.875rem;
+      background: var(--grey-100);
+    }
+
+    .placeholder strong { color: var(--warn); }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      margin-bottom: 1.5rem;
+    }
+
+    th {
+      text-align: left;
+      padding: 0.6rem 0.75rem;
+      background: var(--black);
+      color: var(--white);
+      font-weight: 600;
+    }
+
+    td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid var(--grey-300);
+      vertical-align: top;
+    }
+
+    tr:nth-child(even) td { background: var(--grey-100); }
+
+    .not-observed {
+      color: var(--grey-300);
+      font-style: italic;
+    }
+
+    .blocked { color: var(--warn); font-weight: 600; }
+
+    .brand-section {
+      border-left: 3px solid var(--black);
+      padding-left: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .brand-section.priority { border-left-color: var(--black); }
+
+    .hypothesis {
+      background: var(--grey-100);
+      border-radius: 4px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hypothesis h3 { margin-top: 0; }
+
+    .sources-entry {
+      font-size: 0.875rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--grey-100);
+      display: flex;
+      gap: 1rem;
+      align-items: baseline;
+    }
+
+    .sources-entry .ok::before { content: "✅ "; }
+    .sources-entry .warn::before { content: "⚠ "; color: var(--warn); }
+    .sources-entry .empty::before { content: "⬜ "; }
+
+    footer {
+      margin-top: 6rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--grey-300);
+      font-size: 0.8rem;
+      color: var(--grey-600);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Premium Automotive Digital Audit — Portugal 2026</h1>
+  <p>Mercedes-Benz · BMW · Audi · Volvo · Porsche &nbsp;·&nbsp; Web and YouTube search, brand configurators, annual reports</p>
+  <div class="status-bar">
+    <span>Version 0.1 — skeleton</span>
+    <span class="warn">⚠ BMW iX3 figure unresolved</span>
+    <span>Mercedes-Benz: not started</span>
+    <span>Volvo: not started</span>
+  </div>
+</header>
+
+<!-- ============================================================
+     SECTION 1 — THESIS
+     One paragraph. The central argument. Do not expand.
+     ============================================================ -->
+<section id="thesis">
+  <h2>Thesis</h2>
+  <p>
+    Premium automotive brands in Portugal are generating measurable, in some cases exceptional,
+    digital demand — but losing buyers at the same structural funnel points. Their digital
+    infrastructure varies significantly in readiness for the direct-to-consumer transition
+    that is already underway across the segment. This gap between demand capture and conversion
+    readiness is the central finding.
+  </p>
+</section>
+
+<!-- ============================================================
+     SECTION 2 — METHODOLOGY
+     Shared. Not repeated per brand.
+     ============================================================ -->
+<section id="methodology">
+  <h2>Methodology</h2>
+
+  <h3>GA4 proxy baseline</h3>
+  <p>
+    Source: Google BigQuery public dataset — Google Merchandise Store GA4 export.
+    Sessions: 344,640. This dataset establishes three structural patterns common to
+    high-consideration digital purchase funnels: drop-off concentration between product
+    view and first commitment action; a 51.5× return visitor conversion lift; and a
+    channel-specific mobile gap. These are structural patterns only — not automotive data,
+    not Portuguese market data, not any brand's actual performance.
+  </p>
+  <p>
+    No brand-specific conclusion is stated as if it derives from this dataset.
+    The proxy establishes the pattern. Direct observation and search data establish
+    the brand-specific finding.
+  </p>
+
+  <h3>Google Trends Portugal</h3>
+  <p>
+    Relative search interest indexed to 100. All figures include the exact observation
+    date and query string. Trends data is relative and time-bound — figures are valid
+    at the observation date only and are not presented as durable statistics.
+  </p>
+
+  <h3>Direct configurator observation</h3>
+  <p>
+    Each configurator walked on desktop (Chrome, 1440px) and mobile (Chrome, 390px)
+    on the same date, using the Section 6 checklist. Screenshots taken at each decision
+    point. This is primary evidence and carries more weight than proxy inferences.
+  </p>
+
+  <h3>Annual reports 2024</h3>
+  <p>
+    BMW Group Report 2024, Audi Group Combined Annual and Sustainability Report 2024,
+    and equivalent reports for Mercedes-Benz, Volvo Cars, and Porsche AG. Used for
+    direct sales status and stated digital commerce strategy. Annual reports describe
+    stated strategy — configurator observation determines what is live in Portugal.
+  </p>
+
+  <h3>Cox Automotive 2024 Car Buyer Journey Study</h3>
+  <p>
+    n=2,310, published January 2025. US market study. Used for directional context
+    on research duration (13.5+ hours) and websites visited (4.1 average).
+    Directional applicability to Portugal is argued, not assumed.
+  </p>
+</section>
+
+<!-- ============================================================
+     SECTION 3 — COMPARATIVE MATRIX
+     Five brands x five dimensions.
+     Every cell filled from direct evidence only.
+     ============================================================ -->
+<section id="matrix">
+  <h2>Comparative Matrix</h2>
+  <p style="font-size:0.875rem; color: var(--warn);">
+    ⚠ All cells pending fieldwork completion. No cell may be filled by inference.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Dimension</th>
+        <th>Mercedes-Benz</th>
+        <th>BMW</th>
+        <th>Audi</th>
+        <th>Volvo</th>
+        <th>Porsche</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Configurator end CTA</strong></td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+      </tr>
+      <tr>
+        <td><strong>2. Save mechanism</strong></td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+      </tr>
+      <tr>
+        <td><strong>3. Search demand vs digital readiness</strong></td>
+        <td class="not-observed">Not observed</td>
+        <td class="blocked">⚠ Blocked — iX3 figure unresolved</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+      </tr>
+      <tr>
+        <td><strong>4. Paid mobile path</strong></td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+      </tr>
+      <tr>
+        <td><strong>5. Direct sales status PT</strong></td>
+        <td class="not-observed">Not observed</td>
+        <td>Not live — BMW brand Europe direct sales planned for later date (BMW Group Report 2024)</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+        <td class="not-observed">Not observed</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============================================================
+     SECTION 4 — BRAND FINDINGS
+     Mercedes-Benz first. Only distinctive findings.
+     ============================================================ -->
+<section id="brands">
+  <h2>Brand Findings</h2>
+
+  <div class="brand-section priority" id="mercedes-benz">
+    <h3>Mercedes-Benz</h3>
+    <div class="placeholder">
+      <strong>Not started.</strong> Walk mercedes-benz.pt/pt-pt using
+      fieldwork/mercedes-benz-checklist.md. Priority: checkpoint 7 (end CTA)
+      and checkpoint 5 (save mechanism). Estimated 90 minutes.
+    </div>
+  </div>
+
+  <div class="brand-section" id="bmw">
+    <h3>BMW</h3>
+    <div class="placeholder">
+      <strong>⚠ Blocked on iX3 Trends figure.</strong> Resolve
+      fieldwork/bmw-ix3-fix.md before populating this section.
+      Confirmed findings ready to add: iX3 vs i4 CTA gap,
+      BMW 83 vs Mercedes 76 brand index.
+    </div>
+  </div>
+
+  <div class="brand-section" id="audi">
+    <h3>Audi</h3>
+    <div class="placeholder">
+      <strong>Partial.</strong> Confirmed findings: carLOG third-party save
+      with expiry warning; end CTA "Solicitar uma proposta" (dealer form only);
+      BREAKOUT demand Q3 Sportback 2026. Pending: mobile re-walk,
+      verify current state, update observation dates.
+    </div>
+  </div>
+
+  <div class="brand-section" id="volvo">
+    <h3>Volvo</h3>
+    <div class="placeholder">
+      <strong>Not started.</strong> Walk volvocars.com/pt.
+      Critical cell: direct sales status PT — determines whether H3 is valid.
+    </div>
+  </div>
+
+  <div class="brand-section" id="porsche">
+    <h3>Porsche</h3>
+    <div class="placeholder">
+      <strong>Not started — scoped as short contextual section.</strong>
+      Walk porsche.com/pt/pt, checkpoint 7 only.
+      Frame end CTA as deliberate high-touch positioning if confirmed,
+      not a digital gap.
+    </div>
+  </div>
+
+</section>
+
+<!-- ============================================================
+     SECTION 5 — THREE HYPOTHESES
+     Document-level. Replace per-brand hypothesis sets.
+     ============================================================ -->
+<section id="hypotheses">
+  <h2>Three Testable Hypotheses</h2>
+
+  <div class="hypothesis">
+    <h3>H1 — Configurator end CTA is the single highest-value optimisation point</h3>
+    <p>
+      If all five brands show high search demand, completed configurator sessions,
+      and no digital commitment option — the end CTA is the common lever.
+      If one or more brands have solved it, the hypothesis becomes: brands with a
+      digital commitment CTA show measurably higher re-engagement or lead quality.
+    </p>
+    <p><strong>Evidence required:</strong> End CTA observation for all five brands (matrix row 1).</p>
+    <p><strong>Metric:</strong> Lead submission rate at 14 days — requires brand analytics access. Flagged as limitation.</p>
+    <div class="placeholder"><strong>Status:</strong> Cannot be stated until matrix row 1 is complete.</div>
+  </div>
+
+  <div class="hypothesis">
+    <h3>H2 — Save mechanism friction suppresses return visit value</h3>
+    <p>
+      The 51.5× return visitor lift (proxy, structural) means high-intent returners
+      are the most valuable cohort. The Audi carLOG finding suggests the save mechanism
+      — not the retargeting window — is the primary barrier.
+    </p>
+    <p><strong>Evidence required:</strong> Save mechanism classification for all five brands (matrix row 2).</p>
+    <p><strong>Metric:</strong> Return visit rate for configurator sessions by save mechanism type — requires brand analytics. Flagged as limitation.</p>
+    <div class="placeholder"><strong>Status:</strong> Cannot be stated until matrix row 2 is complete.</div>
+  </div>
+
+  <div class="hypothesis">
+    <h3>H3 — Volvo PT is the most digitally advanced funnel and the thesis exception</h3>
+    <p>
+      If Volvo has live online purchase in Portugal, it is the only brand in the
+      comparison where the full funnel exists digitally — the control case against
+      which the others are measured. Including it as an exception strengthens the
+      thesis rather than undermining it.
+    </p>
+    <p><strong>Evidence required:</strong> Volvo PT configurator end screen observation + Volvo Cars 2024 Annual Report.</p>
+    <p><strong>Decision:</strong> If Volvo PT does not have online purchase live, H3 is invalid and the thesis is uniformly supported.</p>
+    <div class="placeholder"><strong>Status:</strong> Cannot be stated until Volvo fieldwork is complete.</div>
+  </div>
+
+</section>
+
+<!-- ============================================================
+     SECTION 6 — WHAT CHANGES WITH REAL DATA ACCESS
+     Shared. One section only.
+     ============================================================ -->
+<section id="data-access">
+  <h2>What Changes With Real Data Access</h2>
+  <p>
+    This audit is built on public signals and direct observation. The following
+    questions cannot be answered without access to brand-owned analytics:
+  </p>
+  <ul style="padding-left:1.5rem; color: var(--grey-600); font-size:0.95rem;">
+    <li style="margin-bottom:0.5rem;">Actual configurator session completion rate per brand</li>
+    <li style="margin-bottom:0.5rem;">Lead submission rate at 7, 14, and 30 days after configurator completion</li>
+    <li style="margin-bottom:0.5rem;">Return visit rate segmented by save mechanism type</li>
+    <li style="margin-bottom:0.5rem;">CPC mobile vs desktop conversion rate by landing page type</li>
+    <li style="margin-bottom:0.5rem;">Session-to-lead latency distribution (proxy shows 129h average in e-commerce; automotive equivalent unknown)</li>
+  </ul>
+</section>
+
+<!-- ============================================================
+     SECTION 7 — SOURCES AND OBSERVATION LOG
+     Every source, with access date.
+     ============================================================ -->
+<section id="sources">
+  <h2>Sources and Observation Log</h2>
+
+  <div class="sources-entry">
+    <span class="ok"></span>
+    <span>BMW Group Report 2024 — direct sales status, MINI rollout, BMW brand trajectory</span>
+  </div>
+  <div class="sources-entry">
+    <span class="ok"></span>
+    <span>Audi Group Combined Annual and Sustainability Report 2024</span>
+  </div>
+  <div class="sources-entry">
+    <span class="empty"></span>
+    <span>Mercedes-Benz Group Annual Report 2024 — not yet extracted</span>
+  </div>
+  <div class="sources-entry">
+    <span class="empty"></span>
+    <span>Volvo Cars Annual Report 2024 — not yet extracted</span>
+  </div>
+  <div class="sources-entry">
+    <span class="empty"></span>
+    <span>Porsche AG Annual Report 2024 — not yet extracted</span>
+  </div>
+  <div class="sources-entry">
+    <span class="ok"></span>
+    <span>Google BigQuery public dataset — Google Merchandise Store GA4 export, 344,640 sessions</span>
+  </div>
+  <div class="sources-entry">
+    <span class="warn"></span>
+    <span>Google Trends PT — BMW iX3 observation: figure disputed (+750% vs +1,050%), date unconfirmed</span>
+  </div>
+  <div class="sources-entry">
+    <span class="empty"></span>
+    <span>Google Trends PT — Mercedes-Benz observation: not yet run</span>
+  </div>
+  <div class="sources-entry">
+    <span class="empty"></span>
+    <span>Google Trends PT — Volvo observation: not yet run</span>
+  </div>
+  <div class="sources-entry">
+    <span class="empty"></span>
+    <span>Google Trends PT — Porsche observation: not yet run</span>
+  </div>
+  <div class="sources-entry">
+    <span class="empty"></span>
+    <span>Configurator observation — mercedes-benz.pt/pt-pt: not yet walked</span>
+  </div>
+  <div class="sources-entry">
+    <span class="empty"></span>
+    <span>Configurator observation — volvocars.com/pt: not yet walked</span>
+  </div>
+  <div class="sources-entry">
+    <span class="empty"></span>
+    <span>Configurator observation — porsche.com/pt/pt: not yet walked</span>
+  </div>
+  <div class="sources-entry">
+    <span class="ok"></span>
+    <span>Cox Automotive 2024 Car Buyer Journey Study — n=2,310, published January 2025</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>Premium Automotive Digital Audit — Portugal 2026 &nbsp;·&nbsp; Sara M. S. Cruz &nbsp;·&nbsp; Version 0.1 skeleton &nbsp;·&nbsp; June 2026</p>
+  <p style="margin-top:0.5rem;">This is a working document. The deliverable is this dashboard at completion. Observations have an expiry — configurators change.</p>
+</footer>
+
+</body>
+</html>
