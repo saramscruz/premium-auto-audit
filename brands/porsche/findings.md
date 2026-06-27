@@ -138,6 +138,6 @@ Porsche Code and PDF confirmed frictionless. Guardar not confirmed.
 
 - [x] Mobile end screen — Taycan Solicitar este veículo confirmed 27/06/2026
 - [x] Guardar requires Porsche ID — confirmed 27/06/2026 (modal with Iniciar sessão e guardar a configuração)
-- [ ] Porsche AG Annual Report 2024
+- [x] Porsche AG Annual Report 2024 — Annual and Sustainability Report 2024 accessed. Key extractions: (1) Indirect online sales via digital platform and sales partners — no direct-to-consumer purchase model. (2) Digital vehicle search available in 100+ markets — dealers offer immediately available stock online. (3) Destination Porsche retail concept — 150+ of 800+ centres rolled out, 500 more by end of decade. (4) Value over Volume strategy confirmed by CEO Oliver Blume. All consistent with deliberate high-touch positioning finding.
 
 
