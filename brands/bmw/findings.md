@@ -1,6 +1,6 @@
-Ôªø# BMW ‚Äî Brand Findings
+# BMW ó Brand Findings
 
-**Status:** Complete from existing screenshots ‚Äî 12/06/2026. Mobile end screen outstanding.
+**Status:** Complete from existing screenshots ó 12/06/2026. Mobile end screen outstanding.
 **Models observed:** BMW iX3 40 (Neue Klasse), BMW i4 eDrive35
 **Observation date:** 12/06/2026
 **Trends session date:** 12/06/2026 (original) + 26/06/2026 (re-verification)
@@ -9,13 +9,13 @@
 
 ## Distinctive finding
 
-The iX3 vs i4 CTA gap within a single brand is the clearest BMW-specific finding. BMW has deployed the Reserve CTA on the i4 (step 12) but not on the iX3 (step 14). The iX3 is the higher-demand model ‚Äî BREAKOUT status by 26/06/2026 ‚Äî and the one without the digital commitment option. A brand that has solved the Reserve CTA for one model and withheld it from another is not facing a capability gap. It is facing a deployment decision. That distinction is the finding.
+The iX3 vs i4 CTA gap within a single brand is the clearest BMW-specific finding. BMW has deployed the Reserve CTA on the i4 (step 12) but not on the iX3 (step 14). The iX3 is the higher-demand model ó BREAKOUT status by 26/06/2026 ó and the one without the digital commitment option. A brand that has solved the Reserve CTA for one model and withheld it from another is not facing a capability gap. It is facing a deployment decision. That distinction is the finding.
 
 ---
 
-## Search demand ‚Äî Google Trends PT
+## Search demand ó Google Trends PT
 
-### iX3 ‚Äî key figures
+### iX3 ó key figures
 | Query | Figure | Date |
 |-------|--------|------|
 | "ix3 2026" (top queries) | +750% | 12/06/2026 |
@@ -25,7 +25,7 @@ The iX3 vs i4 CTA gap within a single brand is the clearest BMW-specific finding
 | "bmw ix3 neue klasse" (rising) | BREAKOUT | 12/06/2026 |
 | All iX3 queries | BREAKOUT | 26/06/2026 re-verification |
 
-Query string: "BMW iX3" ¬∑ Web Search ¬∑ Portugal ¬∑ Past year ¬∑ Observed 12/06/2026 and 26/06/2026
+Query string: "BMW iX3" ∑ Web Search ∑ Portugal ∑ Past year ∑ Observed 12/06/2026 and 26/06/2026
 
 ### iX3 generation note
 Both observation sessions postdate the Neue Klasse iX3 launch in Portugal (March 2026). "bmw ix3 neue klasse" appearing as a distinct rising query confirms the new generation is driving incremental search volume. Figures reflect blended interest across both generations.
@@ -40,77 +40,77 @@ Both observation sessions postdate the Neue Klasse iX3 launch in Portugal (March
 - BMW iX3 average interest: 15
 - CLA has 5x the average search interest of BMW iX3 in PT
 
-Note: BMW brand-level index (83) vs Mercedes brand-level index (76) from prior observation favours BMW. At model level the comparison reverses for both competitors. Brand-level and model-level comparisons tell different stories ‚Äî both retained in document with distinction stated explicitly.
+Note: BMW brand-level index (83) vs Mercedes brand-level index (76) from prior observation favours BMW. At model level the comparison reverses for both competitors. Brand-level and model-level comparisons tell different stories ó both retained in document with distinction stated explicitly.
 
 ---
 
-## Configurator findings ‚Äî 12/06/2026
+## Configurator findings ó 12/06/2026
 
-### 1. Entry CTA ‚Äî both models
+### 1. Entry CTA ó both models
 Model listing page (bmw.pt/pt/all-models.html):
-- "Configura√ß√£o e pre√ßo" ‚Äî primary (blue filled)
-- "Pedido de Proposta" ‚Äî secondary (white/outline)
+- "ConfiguraÁ„o e preÁo" ó primary (blue filled)
+- "Pedido de Proposta" ó secondary (white/outline)
 
 Identical entry CTA for both iX3 and i4.
 
 ### 2. Configurator structure
-- iX3: **14 sequential steps** ‚Äî tabs: Motoriza√ß√µes ¬∑ Vers√£o ¬∑ Pinturas ¬∑ Jantes ¬∑ Design de interiores ¬∑ Volantes ¬∑ Equipamento de s√©rie ¬∑ Packs ¬∑ Assistentes de condu√ß√£o ¬∑ Opcionais ¬∑ Carregamento ¬∑ Acess√≥rios ¬∑ Services ¬∑ Conclu√≠do
-- i4: **12 sequential steps** ‚Äî same tab structure, 2 fewer steps
+- iX3: **14 sequential steps** ó tabs: MotorizaÁıes ∑ Vers„o ∑ Pinturas ∑ Jantes ∑ Design de interiores ∑ Volantes ∑ Equipamento de sÈrie ∑ Packs ∑ Assistentes de conduÁ„o ∑ Opcionais ∑ Carregamento ∑ AcessÛrios ∑ Services ∑ ConcluÌdo
+- i4: **12 sequential steps** ó same tab structure, 2 fewer steps
 
-Step counter visible at top left (e.g. "1 / 14"). Navigation is sequential with named tabs ‚Äî different from Mercedes sidebar and Audi structure.
+Step counter visible at top left (e.g. "1 / 14"). Navigation is sequential with named tabs ó different from Mercedes sidebar and Audi structure.
 
 ### 3. Price visibility
 Visible from step 1 on both models:
-- iX3: 64.500‚Ç¨ from step 1
-- i4: 61.240‚Ç¨ from step 1 (with additional equipment note)
-Real-time update confirmed ‚Äî header shows running total throughout.
+- iX3: 64.500Ä from step 1
+- i4: 61.240Ä from step 1 (with additional equipment note)
+Real-time update confirmed ó header shows running total throughout.
 
 ### 4. Stock signal
-"Viaturas Dispon√≠veis" link visible on i4 end screen with thumbnail. Not confirmed on iX3 end screen. Checkpoint 4 partially answered ‚Äî stock signal present at end screen for i4.
+"Viaturas DisponÌveis" link visible on i4 end screen with thumbnail. Not confirmed on iX3 end screen. Checkpoint 4 partially answered ó stock signal present at end screen for i4.
 
 ### 5. Save mechanism
-"Guardar Configura√ß√£o" ‚Äî blue button, prominent, visible from step 1 and on end screen for both models. Whether login is required not confirmed from screenshots ‚Äî outstanding.
+"Guardar ConfiguraÁ„o" ó blue button, prominent, visible from step 1 and on end screen for both models. Whether login is required not confirmed from screenshots ó outstanding.
 
-Additional: "Link do seu BMW" ‚Äî shareable URL on end screen for both models, no login required:
+Additional: "Link do seu BMW" ó shareable URL on end screen for both models, no login required:
 - iX3: https://configure.bmw.pt/pt_PT/configid/h2d4exz8
 - i4: https://configure.bmw.pt/pt_PT/configid/hu4kf59m
 
-Classification: **First-party ‚Äî login status of Guardar outstanding. Link share confirmed frictionless.**
+Classification: **First-party ó login status of Guardar outstanding. Link share confirmed frictionless.**
 
 ### 6. Expiry warning
 Not observed on either model.
 
-### 7. End screen CTA ‚Äî the key finding
+### 7. End screen CTA ó the key finding
 
-**BMW iX3 40 ‚Äî step 14/14 "Conclu√≠do":**
+**BMW iX3 40 ó step 14/14 "ConcluÌdo":**
 - Pedido de Proposta
 - Resumo
 - Test Drive
-- Guardar Configura√ß√£o (blue, primary)
+- Guardar ConfiguraÁ„o (blue, primary)
 - Link do seu BMW
 - **No "Reservar" CTA**
 
-**BMW i4 eDrive35 ‚Äî step 12/12 "Conclu√≠do":**
+**BMW i4 eDrive35 ó step 12/12 "ConcluÌdo":**
 - Pedido de Proposta
-- **Reservar** ‚Üê present
+- **Reservar** ? present
 - Resumo
 - Test Drive
-- Viaturas Dispon√≠veis
-- Guardar Configura√ß√£o (blue, primary)
+- Viaturas DisponÌveis
+- Guardar ConfiguraÁ„o (blue, primary)
 - Link do seu BMW
 
 Classification:
-- iX3: **Dealer form only** ‚Äî no digital commitment option
-- i4: **Reservation available** ‚Äî "Reservar" CTA present
+- iX3: **Dealer form only** ó no digital commitment option
+- i4: **Reservation available** ó "Reservar" CTA present
 
 ### 8. Mobile parity
-Not observed. Outstanding ‚Äî requires mobile observation session.
+Not observed. Outstanding ó requires mobile observation session.
 
 ### 9. Paid entry point
 Not observed.
 
 ### 10. Account requirement
-Not confirmed for "Guardar Configura√ß√£o". "Link do seu BMW" confirmed frictionless ‚Äî no login required.
+Not confirmed for "Guardar ConfiguraÁ„o". "Link do seu BMW" confirmed frictionless ó no login required.
 
 ---
 
@@ -119,24 +119,25 @@ Not confirmed for "Guardar Configura√ß√£o". "Link do seu BMW" confirmed friction
 | Dimension | Finding | Evidence |
 |-----------|---------|----------|
 | Configurator end CTA | iX3: dealer form only. i4: reservation available. Gap is model-specific, not brand-level. | Direct observation 12/06/2026 |
-| Save mechanism | First-party ‚Äî "Guardar Configura√ß√£o" (login status outstanding) + frictionless link share | Direct observation 12/06/2026 |
-| Search demand vs digital readiness | iX3 "ix3 2026" +750% (12/06/2026), BREAKOUT by 26/06/2026 ‚Äî no Reserve CTA on highest-demand model | Trends + observation |
-| Paid mobile path | Not observed | ‚Äî |
-| Direct sales status PT | Not live ‚Äî BMW brand Europe direct sales planned for later date (BMW Group Report 2024). Reserve CTA on i4 is reservation, not purchase. | Annual report + observation |
+| Save mechanism | First-party ó "Guardar ConfiguraÁ„o" (login status outstanding) + frictionless link share | Direct observation 12/06/2026 |
+| Search demand vs digital readiness | iX3 "ix3 2026" +750% (12/06/2026), BREAKOUT by 26/06/2026 ó no Reserve CTA on highest-demand model | Trends + observation |
+| Paid mobile path | Not observed | ó |
+| Direct sales status PT | Not live ó BMW brand Europe direct sales planned for later date (BMW Group Report 2024). Reserve CTA on i4 is reservation, not purchase. | Annual report + observation |
 
 ---
 
 ## Outstanding
 
-- [ ] Mobile end screen observation ‚Äî iX3 and i4 at 390px
-- [ ] Confirm whether "Guardar Configura√ß√£o" requires login
+- [ ] Mobile end screen observation ó iX3 and i4 at 390px
+- [x] Guardar ConfiguraÁ„o requires BMW ID ó confirmed 27/06/2026 (full-page redirect to customer.bmwgroup.com/oneid/)
 - [ ] Verify whether iX3 Reserve CTA has been added since 12/06/2026 observation (configurators change)
 - [ ] Add exact query string and date to BMW brand 83 vs Mercedes 76 Trends comparison
-- [ ] BMW Group Annual Report 2024 ‚Äî direct sales Portugal status confirmed as not live
+- [ ] BMW Group Annual Report 2024 ó direct sales Portugal status confirmed as not live
 
-### iX3 vs i4 ‚Äî average interest comparison (26/06/2026)
+### iX3 vs i4 ó average interest comparison (26/06/2026)
 - BMW iX3 average interest: 48
 - BMW i4 average interest: 38
 - iX3 outpaces i4 on search demand despite lacking the Reserve CTA that i4 has. The higher-demand model has the weaker digital commitment option.
-- Query: "BMW iX3" vs "BMW i4" ¬∑ Web Search ¬∑ Portugal ¬∑ Past year ¬∑ Observed 26/06/2026
+- Query: "BMW iX3" vs "BMW i4" ∑ Web Search ∑ Portugal ∑ Past year ∑ Observed 26/06/2026
+
 
