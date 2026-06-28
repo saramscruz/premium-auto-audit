@@ -1,8 +1,8 @@
-ï»¿# GA4 Proxy Baseline â€” Shared Methodology
+# GA4 Proxy Baseline — Shared Methodology
 
 ## What this dataset is
 
-Source: Google BigQuery public dataset â€” Google Merchandise Store GA4 export  
+Source: Google BigQuery public dataset — Google Merchandise Store GA4 export  
 Sessions: 344,640  
 Period: Standard public sample period  
 
@@ -12,9 +12,9 @@ This is a high-consideration e-commerce funnel from a real GA4 implementation.
 
 Three structural patterns that apply to high-consideration digital purchase funnels broadly:
 
-1. **Drop-off concentration** â€” the largest single session drop occurs between product view and the first commitment action (add-to-cart equivalent). This is the funnel's structural weak point.
-2. **Return visitor lift** â€” return visitors convert at a materially higher rate than first-visit sessions. The proxy shows a 51.5x lift. The absolute figure is not claimed for any brand; the pattern is.
-3. **Channel x device interaction** â€” the mobile conversion gap is channel-specific, not device-specific. Mobile organic underperforms desktop organic more than mobile paid underperforms desktop paid. The bottleneck is upstream content, not the funnel itself.
+1. **Drop-off concentration** — the largest single session drop occurs between product view and the first commitment action (add-to-cart equivalent). This is the funnel's structural weak point.
+2. **Return visitor lift** — return visitors convert at a materially higher rate than first-visit sessions. The proxy shows a 6.3x lift (0.78% on the first session to 4.94% on the sixth-plus session). This is a session-depth gradient, not a first-vs-return binary. The absolute figure is not claimed for any brand; the pattern is.
+3. **Channel x device interaction** — the mobile conversion gap is channel-specific, not device-specific. Mobile organic underperforms desktop organic more than mobile paid underperforms desktop paid. The bottleneck is upstream content, not the funnel itself.
 
 ## What it is not
 
@@ -22,9 +22,9 @@ Three structural patterns that apply to high-consideration digital purchase funn
 - Portuguese market data
 - Any brand's actual performance
 
-The 1.41% conversion rate, the 51.5x return visitor lift, and the channel splits are structural patterns only. They establish the analytical framework. All brand-specific quantitative claims derive from direct configurator observation and Google Trends PT.
+The 1.41% conversion rate, the 6.3x session-depth conversion lift, and the channel splits are structural patterns only. They establish the analytical framework. All brand-specific quantitative claims derive from direct configurator observation and Google Trends PT.
 
-## Constraint â€” enforced throughout
+## Constraint — enforced throughout
 
 No brand-specific conclusion may be stated as if it derives from this dataset.  
 The proxy establishes the pattern. Direct observation and search data establish the brand-specific finding.
@@ -33,10 +33,10 @@ The proxy establishes the pattern. Direct observation and search data establish 
 
 Once, in the methodology section. It is not repeated per brand. Brand sections do not cite these figures as their own.
 
-## Google Trends â€” methodology note
-Source: Google Trends PT Â· Web Search Â· Past 12 months Â· observed at stated dates.
+## Google Trends — methodology note
+Source: Google Trends PT · Web Search · Past 12 months · observed at stated dates.
 
-Trends indices are relative, not absolute. Each value (0â€“100) represents search interest
+Trends indices are relative, not absolute. Each value (0–100) represents search interest
 relative to the highest point in the selected time window for that query. This means:
 
 - The same query observed on a different date will return a different index value.
