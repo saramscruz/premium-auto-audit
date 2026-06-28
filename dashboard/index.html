@@ -163,8 +163,8 @@
     .main {
       margin-left: var(--nav-w);
       flex: 1;
-      padding: 3rem 3.5rem 6rem;
-      max-width: 900px;
+      padding: 2rem 2rem 6rem;
+      max-width: calc(100vw - 240px);
     }
 
     /* ── PAGE HEADER ─────────────────────────────────────────── */
@@ -263,7 +263,7 @@
       color: var(--text);
       margin-bottom: 1rem;
       opacity: 0.88;
-      max-width: 68ch;
+      max-width: 100%;
     }
 
     h3 {
@@ -667,7 +667,7 @@
     <div class="thesis-block">
       <p>Premium automotive brands in Portugal are generating measurable, in some cases exceptional, digital demand — but losing buyers at the same structural funnel points. Their digital infrastructure varies significantly in readiness for the direct-to-consumer transition that is already underway across the segment. This gap between demand capture and conversion readiness is the central finding.</p>
     </div>
-    <p>The counter-argument deserves to be named explicitly: the annual reports of all five brands suggest that Portugal's non-activation may be deliberate positioning rather than a missed opportunity. Mercedes-Benz had converted eleven European markets to direct sales by end 2024 but has not named Portugal. Volvo explicitly abandoned full-market conversion after its UK pilot, choosing instead to digitise within the existing retailer network. Porsche's "Value over Volume" strategy and Destination Porsche retail concept confirm the dealer model as permanent at this price point. BMW states directly that BMW brand direct sales in Europe are "planned for a later date." Audi calls its dealer network "the backbone of our sales and distribution." The thesis does not require these brands to have made a mistake. It requires only that the structural gap between demand and conversion readiness is real and measurable � which the configurator observation confirms regardless of whether the gap is intentional.</p>
+    <p>The counter-argument deserves to be named explicitly: the annual reports of all five brands suggest that Portugal's non-activation may be deliberate positioning rather than a missed opportunity. Mercedes-Benz had converted eleven European markets to direct sales by end 2024 but has not named Portugal. Volvo explicitly abandoned full-market conversion after its UK pilot, choosing instead to digitise within the existing retailer network. Porsche's "Value over Volume" strategy and Destination Porsche retail concept confirm the dealer model as permanent at this price point. BMW states directly that BMW brand direct sales in Europe are "planned for a later date." Audi calls its dealer network "the backbone of our sales and distribution." The thesis does not require these brands to have made a mistake. It requires only that the structural gap between demand and conversion readiness is real and measurable � which the configurator observation confirms regardless of whether the gap is intentional.</p>
     <p>No brand in this comparison has activated online purchase in Portugal as of 27/06/2026. The thesis holds uniformly across all five brands.</p>
   </section>
 
@@ -700,7 +700,7 @@
     <p>No brand-specific conclusion is stated as if it derives from this dataset. The proxy establishes the pattern. Direct observation and search data establish the brand-specific finding.</p>
 
     <h3>Google Trends Portugal</h3>
-    <p>Relative search interest indexed to 100. All figures include the exact observation date and query string. Search demand data is used as the primary proxy for buyer intent in the Portuguese market — it is direct, market-specific evidence rather than survey inference. Trends data is relative and time-bound � figures are valid at the observation date only and are not presented as durable statistics.</p>
+    <p>Relative search interest indexed to 100. All figures include the exact observation date and query string. Search demand data is used as the primary proxy for buyer intent in the Portuguese market — it is direct, market-specific evidence rather than survey inference. Trends data is relative and time-bound � figures are valid at the observation date only and are not presented as durable statistics.</p>
     <p><strong>Index instability caveat:</strong> Google Trends indices are relative, not absolute. Each value represents search interest relative to the peak within the selected time window for that specific query. The same query observed on a different date or with a different time window will return a different index value. Indices across different queries and brands are directional indicators of demand tier, not precise comparable measurements. BREAKOUT status and percentage figures in rising queries are signals of acceleration, not exact counts. All index values in this audit are stated with their observation date; they are used to establish relative demand tiers only and no claim depends on any figure being stable or replicable on re-observation.</p>
 
     <h3>Direct configurator observation</h3>
@@ -863,7 +863,7 @@
       <div class="brand-block-body">
         <div class="distinctive-box">
           <span class="finding-label">Distinctive finding</span>
-          <p>BMW has deployed the "Reservar" CTA on the i4 (step 12) but not on the iX3 (step 14). The iX3 is the higher-demand model — average index 48 vs i4 average index 38, and BREAKOUT status by 26/06/2026 — and it is the one without the digital commitment option. A brand that has solved the Reserve CTA for one model and withheld it from another is not facing a capability gap. It is facing a deployment decision. Three alternative explanations exist and should be named: the iX3 (Neue Klasse) launched in Portugal in March 2026 and may be in a different product lifecycle phase than the i4; the Reserve CTA may depend on an inventory or production allocation model not yet available for the new iX3 generation; or the rollout may be market-sequenced rather than model-sequenced, with Portugal not yet in scope for iX3 reservation. The deployment-decision reading remains the most parsimonious because BMW has demonstrated the technical infrastructure exists within the same market and brand � but these alternatives cannot be ruled out without internal confirmation.</p>
+          <p>BMW has deployed the "Reservar" CTA on the i4 (step 12) but not on the iX3 (step 14). The iX3 is the higher-demand model — average index 48 vs i4 average index 38, and BREAKOUT status by 26/06/2026 — and it is the one without the digital commitment option. A brand that has solved the Reserve CTA for one model and withheld it from another is not facing a capability gap. It is facing a deployment decision. Three alternative explanations exist and should be named: the iX3 (Neue Klasse) launched in Portugal in March 2026 and may be in a different product lifecycle phase than the i4; the Reserve CTA may depend on an inventory or production allocation model not yet available for the new iX3 generation; or the rollout may be market-sequenced rather than model-sequenced, with Portugal not yet in scope for iX3 reservation. The deployment-decision reading remains the most parsimonious because BMW has demonstrated the technical infrastructure exists within the same market and brand � but these alternatives cannot be ruled out without internal confirmation.</p>
         </div>
         <h3>Search demand</h3>
         <p>BMW holds the second-highest brand-level search interest (index 73). At model level, iX3 average interest (48) outpaces i4 (38) — the higher-demand model lacks the Reserve CTA that the lower-demand model has. "ix3 2026" recorded +750% at observation on 12/06/2026 and had reached BREAKOUT status by 26/06/2026.</p>
@@ -972,14 +972,14 @@
       <div class="h-label">H1</div>
       <h3>Configurator end CTA is the single highest-value optimisation point</h3>
       <p>All five brands show measurable to exceptional search demand, confirmed configurator sessions, and no live digital purchase option in Portugal as of 27/06/2026. The end CTA is the common structural lever across all five.</p>
-      <p>The iX3 vs i4 finding sharpens H1: BMW has demonstrated it can deploy a digital commitment CTA (i4 "Reservar") within the same brand infrastructure. The iX3 — the higher-demand model — lacks it. This is not a capability gap. It is a deployment decision � the most parsimonious reading given that the infrastructure demonstrably exists within the same market and brand. The implication is that the barrier is rollout prioritisation, not technical readiness. Alternative explanations (iX3 product lifecycle phase, inventory model dependency, market-sequenced rollout) cannot be ruled out without internal confirmation.</p>
+      <p>The iX3 vs i4 finding sharpens H1: BMW has demonstrated it can deploy a digital commitment CTA (i4 "Reservar") within the same brand infrastructure. The iX3 — the higher-demand model — lacks it. This is not a capability gap. It is a deployment decision � the most parsimonious reading given that the infrastructure demonstrably exists within the same market and brand. The implication is that the barrier is rollout prioritisation, not technical readiness. Alternative explanations (iX3 product lifecycle phase, inventory model dependency, market-sequenced rollout) cannot be ruled out without internal confirmation.</p>
       <div class="metric-note"><strong>Named metric:</strong> Lead submission rate at 7, 14, and 30 days after configurator completion. <strong>Limitation:</strong> requires brand analytics access — not available in this audit. Flagged as the primary question that real data access would answer.</div>
     </div>
 
     <div class="hypothesis-block">
       <div class="h-label">H2</div>
       <h3>Save mechanism friction suppresses return visit value</h3>
-      <p>The GA4 proxy shows a 6.3x conversion lift from first to sixth-plus session (0.78% to 4.94%) in the Google Merchandise Store dataset. This establishes that return visit depth � not simply first vs return � is the relevant variable: conversion compounds progressively across sessions without plateauing through session six. The Audi carLOG finding is the clearest evidence of friction at this point: a third-party save portal with an explicit configuration expiry warning is the only save mechanism in this comparison with no confirmed frictionless alternative — and the one most likely to fail a buyer who returns to their saved configuration after a product update.</p>
+      <p>The GA4 proxy shows a 6.3x conversion lift from first to sixth-plus session (0.78% to 4.94%) in the Google Merchandise Store dataset. This establishes that return visit depth � not simply first vs return � is the relevant variable: conversion compounds progressively across sessions without plateauing through session six. The Audi carLOG finding is the clearest evidence of friction at this point: a third-party save portal with an explicit configuration expiry warning is the only save mechanism in this comparison with no confirmed frictionless alternative — and the one most likely to fail a buyer who returns to their saved configuration after a product update.</p>
       <p>The friction ranking (Volvo lowest → Mercedes highest) maps inversely to the presence and prominence of frictionless secondary paths. All five brands have identified this problem to some degree — all offer at least one frictionless alternative. None has eliminated the account requirement for primary save.</p>
       <div class="metric-note"><strong>Named metric:</strong> Return visit rate for configurator sessions segmented by save mechanism type. <strong>Limitation:</strong> requires brand analytics access — not available in this audit.</div>
     </div>

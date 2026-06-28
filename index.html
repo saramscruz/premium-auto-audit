@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Premium Automotive Digital Audit - Portugal 2026</title>
+  <title>Premium Automotive Digital Audit — Portugal 2026</title>
   <style>
-    /* â”€â”€ TOKENS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── TOKENS ──────────────────────────────────────────────── */
     :root {
       --bg:        #0e0e10;
       --surface:   #17171a;
@@ -32,10 +32,10 @@
 
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap');
 
-    /* â”€â”€ RESET â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── RESET ───────────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* â”€â”€ LAYOUT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── LAYOUT ──────────────────────────────────────────────── */
     body {
       font-family: var(--font-body);
       font-size: 14px;
@@ -46,7 +46,7 @@
       min-height: 100vh;
     }
 
-    /* â”€â”€ SIDEBAR NAV â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── SIDEBAR NAV ─────────────────────────────────────────── */
     .sidebar {
       width: var(--nav-w);
       min-height: 100vh;
@@ -151,7 +151,7 @@
       width: 100%;
     }
 
-    .sidebar-footer .status-pill::before { content: "â—"; font-size: 0.5rem; }
+    .sidebar-footer .status-pill::before { content: "●"; font-size: 0.5rem; }
 
     .sidebar-footer .meta {
       font-size: 0.68rem;
@@ -159,7 +159,7 @@
       line-height: 1.5;
     }
 
-    /* â”€â”€ MAIN CONTENT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── MAIN CONTENT ────────────────────────────────────────── */
     .main {
       margin-left: var(--nav-w);
       flex: 1;
@@ -167,7 +167,7 @@
       max-width: calc(100vw - 240px);
     }
 
-    /* â”€â”€ PAGE HEADER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── PAGE HEADER ─────────────────────────────────────────── */
     .page-header {
       margin-bottom: 4rem;
       padding-bottom: 2rem;
@@ -228,7 +228,7 @@
     .chip-volvo    { color: var(--volvo);    border-color: rgba(91,143,168,0.3);  background: rgba(91,143,168,0.06);  }
     .chip-porsche  { color: var(--porsche);  border-color: rgba(200,150,60,0.3);  background: rgba(200,150,60,0.06);  }
 
-    /* â”€â”€ SECTIONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── SECTIONS ────────────────────────────────────────────── */
     section {
       margin-bottom: 4.5rem;
       scroll-margin-top: 2rem;
@@ -257,7 +257,7 @@
       color: var(--faint);
     }
 
-    /* â”€â”€ PROSE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── PROSE ───────────────────────────────────────────────── */
     p {
       font-size: 0.9rem;
       color: var(--text);
@@ -273,7 +273,7 @@
       margin: 1.75rem 0 0.6rem;
     }
 
-    /* â”€â”€ THESIS BLOCK â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── THESIS BLOCK ────────────────────────────────────────── */
     .thesis-block {
       border-left: 2px solid var(--text);
       padding: 1.25rem 1.5rem;
@@ -289,7 +289,7 @@
       margin: 0;
     }
 
-    /* â”€â”€ METHODOLOGY ITEMS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── METHODOLOGY ITEMS ───────────────────────────────────── */
     .method-grid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -327,7 +327,7 @@
       opacity: 0.7;
     }
 
-    /* â”€â”€ TABLES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── TABLES ──────────────────────────────────────────────── */
     .table-wrap {
       overflow-x: auto;
       margin-bottom: 2rem;
@@ -374,7 +374,7 @@
     .col-volvo    { border-top: 2px solid var(--volvo);    }
     .col-porsche  { border-top: 2px solid var(--porsche);  }
 
-    /* â”€â”€ BRAND SECTIONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── BRAND SECTIONS ──────────────────────────────────────── */
     .brand-block {
       margin-bottom: 3rem;
       border: 1px solid var(--border);
@@ -439,7 +439,7 @@
       opacity: 0.9;
     }
 
-    /* â”€â”€ HYPOTHESES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── HYPOTHESES ──────────────────────────────────────────── */
     .hypothesis-block {
       border: 1px solid var(--border);
       padding: 1.5rem;
@@ -500,7 +500,7 @@
       opacity: 0.7;
     }
 
-    /* â”€â”€ DATA QUESTIONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── DATA QUESTIONS ──────────────────────────────────────── */
     .data-list {
       list-style: none;
       padding: 0;
@@ -518,14 +518,14 @@
     }
 
     .data-list li::before {
-      content: "â†’";
+      content: "→";
       font-family: var(--font-mono);
       font-size: 0.7rem;
       color: var(--muted);
       flex-shrink: 0;
     }
 
-    /* â”€â”€ SOURCES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── SOURCES ─────────────────────────────────────────────── */
     .source-entry {
       display: flex;
       align-items: baseline;
@@ -545,7 +545,7 @@
       margin-top: 0.3rem;
     }
 
-    /* â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── FOOTER ──────────────────────────────────────────────── */
     footer {
       margin-top: 5rem;
       padding-top: 1.5rem;
@@ -557,7 +557,7 @@
 
     footer p + p { margin-top: 0.35rem; }
 
-    /* â”€â”€ MONO VALUES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── MONO VALUES ─────────────────────────────────────────── */
     .mono { font-family: var(--font-mono); }
 
     .val {
@@ -567,7 +567,7 @@
 
     strong { font-weight: 600; color: var(--text); }
 
-    /* â”€â”€ MOBILE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* ── MOBILE ──────────────────────────────────────────────── */
     @media (max-width: 768px) {
       .sidebar {
         display: none;
@@ -584,12 +584,12 @@
 </head>
 <body>
 
-<!-- â”€â”€ SIDEBAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
+<!-- ── SIDEBAR ───────────────────────────────────────────────── -->
 <nav class="sidebar">
   <div class="sidebar-logo">
     <span class="audit-label">Digital Audit</span>
     <div class="audit-title">Premium Automotive PT</div>
-    <div class="audit-sub">Portugal Â· 2026</div>
+    <div class="audit-sub">Portugal · 2026</div>
   </div>
 
   <span class="nav-section-label">Sections</span>
@@ -639,17 +639,17 @@
 
   <div class="sidebar-footer">
     <div class="status-pill">7 open questions</div>
-    <div class="meta">Sara Cruz<br>v1.0 Â· 27/06/2026</div>
+    <div class="meta">Sara Cruz<br>v1.0 · 27/06/2026</div>
   </div>
 </nav>
 
-<!-- â”€â”€ MAIN â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
+<!-- ── MAIN ──────────────────────────────────────────────────── -->
 <main class="main">
 
   <header class="page-header">
-    <div class="eyebrow">Premium Automotive Digital Audit Â· Portugal Â· 2026</div>
+    <div class="eyebrow">Premium Automotive Digital Audit · Portugal · 2026</div>
     <h1>Demand is high.<br>Conversion is not live.</h1>
-    <p class="subtitle">Web search demand, brand configurators, and annual reports â€” five premium brands, one market, one structural gap.</p>
+    <p class="subtitle">Web search demand, brand configurators, and annual reports — five premium brands, one market, one structural gap.</p>
     <div class="brand-chips">
       <span class="brand-chip chip-mercedes"><span class="chip-dot" style="background:var(--mercedes)"></span>Mercedes-Benz</span>
       <span class="brand-chip chip-bmw"><span class="chip-dot" style="background:var(--bmw)"></span>BMW</span>
@@ -665,9 +665,9 @@
       <h2>Thesis</h2>
     </div>
     <div class="thesis-block">
-      <p>Premium automotive brands in Portugal are generating measurable, in some cases exceptional, digital demand â€” but losing buyers at the same structural funnel points. Their digital infrastructure varies significantly in readiness for the direct-to-consumer transition that is already underway across the segment. This gap between demand capture and conversion readiness is the central finding.</p>
+      <p>Premium automotive brands in Portugal are generating measurable, in some cases exceptional, digital demand — but losing buyers at the same structural funnel points. Their digital infrastructure varies significantly in readiness for the direct-to-consumer transition that is already underway across the segment. This gap between demand capture and conversion readiness is the central finding.</p>
     </div>
-    <p>The counter-argument deserves to be named explicitly: the annual reports of all five brands suggest that Portugal's non-activation may be deliberate positioning rather than a missed opportunity. Mercedes-Benz had converted eleven European markets to direct sales by end 2024 but has not named Portugal. Volvo explicitly abandoned full-market conversion after its UK pilot, choosing instead to digitise within the existing retailer network. Porsche's "Value over Volume" strategy and Destination Porsche retail concept confirm the dealer model as permanent at this price point. BMW states directly that BMW brand direct sales in Europe are "planned for a later date." Audi calls its dealer network "the backbone of our sales and distribution." The thesis does not require these brands to have made a mistake. It requires only that the structural gap between demand and conversion readiness is real and measurable — which the configurator observation confirms regardless of whether the gap is intentional.</p>
+    <p>The counter-argument deserves to be named explicitly: the annual reports of all five brands suggest that Portugal's non-activation may be deliberate positioning rather than a missed opportunity. Mercedes-Benz had converted eleven European markets to direct sales by end 2024 but has not named Portugal. Volvo explicitly abandoned full-market conversion after its UK pilot, choosing instead to digitise within the existing retailer network. Porsche's "Value over Volume" strategy and Destination Porsche retail concept confirm the dealer model as permanent at this price point. BMW states directly that BMW brand direct sales in Europe are "planned for a later date." Audi calls its dealer network "the backbone of our sales and distribution." The thesis does not require these brands to have made a mistake. It requires only that the structural gap between demand and conversion readiness is real and measurable � which the configurator observation confirms regardless of whether the gap is intentional.</p>
     <p>No brand in this comparison has activated online purchase in Portugal as of 27/06/2026. The thesis holds uniformly across all five brands.</p>
   </section>
 
@@ -681,40 +681,40 @@
       <div class="method-cell">
         <div class="method-label">GA4 Proxy</div>
         <div class="method-value mono">344,640</div>
-        <p>Sessions Â· Google Merchandise Store public dataset Â· structural funnel patterns only</p>
+        <p>Sessions · Google Merchandise Store public dataset · structural funnel patterns only</p>
       </div>
       <div class="method-cell">
         <div class="method-label">Configurators walked</div>
         <div class="method-value mono">5</div>
-        <p>Desktop 1440px + mobile 390px Â· 10-checkpoint fieldwork checklist Â· screenshots at each decision point</p>
+        <p>Desktop 1440px + mobile 390px · 10-checkpoint fieldwork checklist · screenshots at each decision point</p>
       </div>
       <div class="method-cell">
         <div class="method-label">Annual reports</div>
         <div class="method-value mono">5</div>
-        <p>BMW Â· Audi Â· Mercedes-Benz Â· Volvo Cars Â· Porsche AG â€” all 2024</p>
+        <p>BMW · Audi · Mercedes-Benz · Volvo Cars · Porsche AG — all 2024</p>
       </div>
     </div>
 
     <h3>GA4 proxy baseline</h3>
-    <p>Source: Google BigQuery public dataset â€” Google Merchandise Store GA4 export. Sessions: 344,640. This dataset establishes three structural patterns common to high-consideration digital purchase funnels: drop-off concentration between product view and first commitment action; a 6.3Ã— return visitor conversion lift; and a channel-specific mobile gap. These are structural patterns only â€” not automotive data, not Portuguese market data, not any brand's actual performance.</p>
+    <p>Source: Google BigQuery public dataset — Google Merchandise Store GA4 export. Sessions: 344,640. This dataset establishes three structural patterns common to high-consideration digital purchase funnels: drop-off concentration between product view and first commitment action; a 6.3× return visitor conversion lift; and a channel-specific mobile gap. These are structural patterns only — not automotive data, not Portuguese market data, not any brand's actual performance.</p>
     <p>No brand-specific conclusion is stated as if it derives from this dataset. The proxy establishes the pattern. Direct observation and search data establish the brand-specific finding.</p>
 
     <h3>Google Trends Portugal</h3>
-    <p>Relative search interest indexed to 100. All figures include the exact observation date and query string. Search demand data is used as the primary proxy for buyer intent in the Portuguese market â€” it is direct, market-specific evidence rather than survey inference. Trends data is relative and time-bound — figures are valid at the observation date only and are not presented as durable statistics.</p>
+    <p>Relative search interest indexed to 100. All figures include the exact observation date and query string. Search demand data is used as the primary proxy for buyer intent in the Portuguese market — it is direct, market-specific evidence rather than survey inference. Trends data is relative and time-bound � figures are valid at the observation date only and are not presented as durable statistics.</p>
     <p><strong>Index instability caveat:</strong> Google Trends indices are relative, not absolute. Each value represents search interest relative to the peak within the selected time window for that specific query. The same query observed on a different date or with a different time window will return a different index value. Indices across different queries and brands are directional indicators of demand tier, not precise comparable measurements. BREAKOUT status and percentage figures in rising queries are signals of acceleration, not exact counts. All index values in this audit are stated with their observation date; they are used to establish relative demand tiers only and no claim depends on any figure being stable or replicable on re-observation.</p>
 
     <h3>Direct configurator observation</h3>
     <p>Each configurator walked on desktop (Chrome, 1440px) and mobile (Chrome, 390px) on the same date, using a ten-checkpoint fieldwork checklist. Screenshots taken at each decision point. This is primary evidence and carries more weight than proxy inferences.</p>
 
     <h3>Annual reports 2024</h3>
-    <p>BMW Group Report 2024, Audi Group Combined Annual and Sustainability Report 2024, Mercedes-Benz Group Annual Report 2024, and Volvo Cars Annual Report 2024 were accessed and extracted. The document accessed for Porsche is the Annual Financial Statements of Dr. Ing. h.c. F. Porsche Aktiengesellschaft for fiscal year 2024 â€” financial statements only, not the full Porsche AG Annual Report. No direct sales strategy narrative was extractable from this document; this is noted in the sources log. Annual reports describe stated strategy; configurator observation determines what is live in Portugal.</p>
+    <p>BMW Group Report 2024, Audi Group Combined Annual and Sustainability Report 2024, Mercedes-Benz Group Annual Report 2024, and Volvo Cars Annual Report 2024 were accessed and extracted. The document accessed for Porsche is the Annual Financial Statements of Dr. Ing. h.c. F. Porsche Aktiengesellschaft for fiscal year 2024 — financial statements only, not the full Porsche AG Annual Report. No direct sales strategy narrative was extractable from this document; this is noted in the sources log. Annual reports describe stated strategy; configurator observation determines what is live in Portugal.</p>
   </section>
 
   <!-- MATRIX -->
   <section id="matrix">
     <div class="section-header">
       <h2>Comparative Matrix</h2>
-      <span class="section-count">5 brands Â· 5 dimensions Â· 27/06/2026</span>
+      <span class="section-count">5 brands · 5 dimensions · 27/06/2026</span>
     </div>
 
     <div class="table-wrap">
@@ -732,35 +732,35 @@
         <tbody>
           <tr>
             <td><strong>1. End CTA</strong></td>
-            <td>Dealer form â€” "Solicitar proposta". "Compra direta online" language present; resolves to dealer form.</td>
-            <td>iX3 step 14: dealer form only â€” no Reserve CTA. i4 step 12: "Reservar" present. Model-specific gap.</td>
-            <td>"Solicitar uma proposta" â€” dealer form only. Confirmed 26/06 + 27/06/2026.</td>
-            <td>"Pedir proposta" â€” dealer form only. /shop/ URL present on stock pages; purchase not activated.</td>
-            <td>"Solicitar este veÃ­culo" â€” dealer request only. Deliberate high-touch at 108.016â‚¬+.</td>
+            <td>Dealer form — "Solicitar proposta". "Compra direta online" language present; resolves to dealer form.</td>
+            <td>iX3 step 14: dealer form only — no Reserve CTA. i4 step 12: "Reservar" present. Model-specific gap.</td>
+            <td>"Solicitar uma proposta" — dealer form only. Confirmed 26/06 + 27/06/2026.</td>
+            <td>"Pedir proposta" — dealer form only. /shop/ URL present on stock pages; purchase not activated.</td>
+            <td>"Solicitar este veículo" — dealer request only. Deliberate high-touch at 108.016€+.</td>
           </tr>
           <tr>
             <td><strong>2. Save mechanism</strong></td>
-            <td>Primary: Mercedes me ID â€” full-page redirect. Secondary: OnlineCode (frictionless). Highest primary friction.</td>
-            <td>Primary: BMW ID â€” full-page redirect. Secondary: "Link do seu BMW" confirmed frictionless.</td>
+            <td>Primary: Mercedes me ID — full-page redirect. Secondary: OnlineCode (frictionless). Highest primary friction.</td>
+            <td>Primary: BMW ID — full-page redirect. Secondary: "Link do seu BMW" confirmed frictionless.</td>
             <td>Dual: Audi Code (native, frictionless) + carLOG (third-party, account, expiry warning). Only third-party save in comparison.</td>
             <td>Lowest friction. "Copiar link" frictionless. PDF frictionless. "Guardar" requires Volvo Portal (modal).</td>
             <td>Porsche Code frictionless. PDF frictionless. "Guardar" requires Porsche ID (modal). Three-tier system.</td>
           </tr>
           <tr>
             <td><strong>3. Search demand</strong></td>
-            <td>Brand avg 86. CLA avg 76 (highest model). "mercedes glc 2026" +4,550% â€” highest figure in audit.</td>
-            <td>Brand avg 73. iX3 avg 48 &gt; i4 avg 38 â€” higher-demand model lacks Reserve CTA. "ix3 2026" +750% â†’ BREAKOUT.</td>
-            <td>Brand avg 46. Q3 avg 51. importrust avg 52 â€” grey-market parity. "audi q3 2026" +700%.</td>
-            <td>Brand avg 25. EX30 avg 54 â€” 14Ã— higher than EX40. "renting carros" BREAKOUT. Chinese EV signals BREAKOUT.</td>
+            <td>Brand avg 86. CLA avg 76 (highest model). "mercedes glc 2026" +4,550% — highest figure in audit.</td>
+            <td>Brand avg 73. iX3 avg 48 &gt; i4 avg 38 — higher-demand model lacks Reserve CTA. "ix3 2026" +750% → BREAKOUT.</td>
+            <td>Brand avg 46. Q3 avg 51. importrust avg 52 — grey-market parity. "audi q3 2026" +700%.</td>
+            <td>Brand avg 25. EX30 avg 54 — 14× higher than EX40. "renting carros" BREAKOUT. Chinese EV signals BREAKOUT.</td>
             <td>Brand avg 20. Macan avg 50; Taycan avg 42. "porsche taycan 2027" +3,250%. Bentley + Urus BREAKOUT.</td>
           </tr>
           <tr>
             <td><strong>4. Paid mobile path</strong></td>
-            <td>Confirmed. "mercedes cla elÃ©trico" â†’ CLA overview. Live chat auto-triggered. 2 steps to configurator. No purchase CTA.</td>
-            <td>Confirmed. "bmw ix3 2026" â†’ iX3 model page. Ad reads "Configurar e Reservar" â€” Reserve absent from page + configurator.</td>
-            <td>Confirmed. "audi q3 2026" â†’ model listing (not model-specific). AI overview above paid result. 3+ steps to configurator. Weakest landing.</td>
-            <td>Confirmed. "volvo ex30 elÃ©trico" â†’ EX30 model page. Price above fold. 1 step to configurator. "Procure, Escolha e Compre" in ad â€” strongest purchase language in audit.</td>
-            <td>Confirmed. "porsche taycan 2026" â†’ Taycan overview. AI overview above paid. "Carregar configuraÃ§Ã£o guardada" prominent. 2 steps to configurator.</td>
+            <td>Confirmed. "mercedes cla elétrico" → CLA overview. Live chat auto-triggered. 2 steps to configurator. No purchase CTA.</td>
+            <td>Confirmed. "bmw ix3 2026" → iX3 model page. Ad reads "Configurar e Reservar" — Reserve absent from page + configurator.</td>
+            <td>Confirmed. "audi q3 2026" → model listing (not model-specific). AI overview above paid result. 3+ steps to configurator. Weakest landing.</td>
+            <td>Confirmed. "volvo ex30 elétrico" → EX30 model page. Price above fold. 1 step to configurator. "Procure, Escolha e Compre" in ad — strongest purchase language in audit.</td>
+            <td>Confirmed. "porsche taycan 2026" → Taycan overview. AI overview above paid. "Carregar configuração guardada" prominent. 2 steps to configurator.</td>
           </tr>
           <tr>
             <td><strong>5. Direct sales PT</strong></td>
@@ -774,31 +774,31 @@
       </table>
     </div>
 
-    <h3>Brand-level search interest â€” five-brand comparison</h3>
-    <p style="font-size:0.78rem; color:var(--muted); margin-bottom:0.75rem;">Query: "Mercedes" vs "BMW" vs "Audi" vs "Volvo" vs "Porsche" Â· Web Search Â· Portugal Â· Past year Â· 27/06/2026</p>
+    <h3>Brand-level search interest — five-brand comparison</h3>
+    <p style="font-size:0.78rem; color:var(--muted); margin-bottom:0.75rem;">Query: "Mercedes" vs "BMW" vs "Audi" vs "Volvo" vs "Porsche" · Web Search · Portugal · Past year · 27/06/2026</p>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Brand</th><th>Avg interest (index)</th><th>Tier</th></tr></thead>
         <tbody>
-          <tr><td><span style="color:var(--mercedes)">â—</span> Mercedes-Benz</td><td class="mono">86</td><td>One</td></tr>
-          <tr><td><span style="color:var(--bmw)">â—</span> BMW</td><td class="mono">73</td><td>One</td></tr>
-          <tr><td><span style="color:var(--audi)">â—</span> Audi</td><td class="mono">46</td><td>Two</td></tr>
-          <tr><td><span style="color:var(--volvo)">â—</span> Volvo</td><td class="mono">25</td><td>Three</td></tr>
-          <tr><td><span style="color:var(--porsche)">â—</span> Porsche</td><td class="mono">20</td><td>Three</td></tr>
+          <tr><td><span style="color:var(--mercedes)">●</span> Mercedes-Benz</td><td class="mono">86</td><td>One</td></tr>
+          <tr><td><span style="color:var(--bmw)">●</span> BMW</td><td class="mono">73</td><td>One</td></tr>
+          <tr><td><span style="color:var(--audi)">●</span> Audi</td><td class="mono">46</td><td>Two</td></tr>
+          <tr><td><span style="color:var(--volvo)">●</span> Volvo</td><td class="mono">25</td><td>Three</td></tr>
+          <tr><td><span style="color:var(--porsche)">●</span> Porsche</td><td class="mono">20</td><td>Three</td></tr>
         </tbody>
       </table>
     </div>
 
-    <h3>Save mechanism â€” ranked by friction (lowest â†’ highest)</h3>
+    <h3>Save mechanism — ranked by friction (lowest → highest)</h3>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Rank</th><th>Brand</th><th>Frictionless path confirmed</th><th>Account required for primary save</th></tr></thead>
         <tbody>
-          <tr><td class="mono">1 â€” lowest</td><td><span style="color:var(--volvo)">â—</span> Volvo</td><td>Copiar link + PDF (both, no login)</td><td>Yes â€” Volvo Portal (modal)</td></tr>
-          <tr><td class="mono">2</td><td><span style="color:var(--porsche)">â—</span> Porsche</td><td>Porsche Code + PDF (both, no login)</td><td>Yes â€” Porsche ID (modal)</td></tr>
-          <tr><td class="mono">3</td><td><span style="color:var(--bmw)">â—</span> BMW</td><td>Link do seu BMW (no login)</td><td>Yes â€” BMW ID (full-page redirect)</td></tr>
-          <tr><td class="mono">4</td><td><span style="color:var(--audi)">â—</span> Audi</td><td>Audi Code (no login) â€” carLOG adds third-party expiry warning</td><td>Yes â€” carLOG third-party account</td></tr>
-          <tr><td class="mono">5 â€” highest</td><td><span style="color:var(--mercedes)">â—</span> Mercedes-Benz</td><td>OnlineCode (no login)</td><td>Yes â€” Mercedes me ID (full-page redirect)</td></tr>
+          <tr><td class="mono">1 — lowest</td><td><span style="color:var(--volvo)">●</span> Volvo</td><td>Copiar link + PDF (both, no login)</td><td>Yes — Volvo Portal (modal)</td></tr>
+          <tr><td class="mono">2</td><td><span style="color:var(--porsche)">●</span> Porsche</td><td>Porsche Code + PDF (both, no login)</td><td>Yes — Porsche ID (modal)</td></tr>
+          <tr><td class="mono">3</td><td><span style="color:var(--bmw)">●</span> BMW</td><td>Link do seu BMW (no login)</td><td>Yes — BMW ID (full-page redirect)</td></tr>
+          <tr><td class="mono">4</td><td><span style="color:var(--audi)">●</span> Audi</td><td>Audi Code (no login) — carLOG adds third-party expiry warning</td><td>Yes — carLOG third-party account</td></tr>
+          <tr><td class="mono">5 — highest</td><td><span style="color:var(--mercedes)">●</span> Mercedes-Benz</td><td>OnlineCode (no login)</td><td>Yes — Mercedes me ID (full-page redirect)</td></tr>
         </tbody>
       </table>
     </div>
@@ -816,17 +816,17 @@
       <div class="brand-block-header">
         <div class="brand-stripe" style="background:var(--mercedes)"></div>
         <h3>Mercedes-Benz</h3>
-        <span class="brand-meta">CLA 200 EQ Â· 27/06/2026</span>
+        <span class="brand-meta">CLA 200 EQ · 27/06/2026</span>
       </div>
       <div class="brand-block-body">
         <div class="distinctive-box">
           <span class="finding-label">Distinctive finding</span>
-          <p>Mercedes PT uses "Compra direta online" language and an "Online Store" breadcrumb on the configurator end screen â€” but both resolve to a dealer lead form. The gap between stated digital capability and implemented reality is the sharpest single finding in this document.</p>
+          <p>Mercedes PT uses "Compra direta online" language and an "Online Store" breadcrumb on the configurator end screen — but both resolve to a dealer lead form. The gap between stated digital capability and implemented reality is the sharpest single finding in this document.</p>
         </div>
         <h3>Search demand</h3>
-        <p>Mercedes holds the highest brand-level average search interest in the comparison (index 86). At model level, the CLA records average interest of 76 â€” the highest individual model figure in the audit. "mercedes glc 2026" at +4,550% is the highest measurable Trends figure in the entire audit, driven by the GLC ElÃ©trico 2026 launch.</p>
+        <p>Mercedes holds the highest brand-level average search interest in the comparison (index 86). At model level, the CLA records average interest of 76 — the highest individual model figure in the audit. "mercedes glc 2026" at +4,550% is the highest measurable Trends figure in the entire audit, driven by the GLC Elétrico 2026 launch.</p>
         <p>Cross-brand consideration is confirmed directly in the data: "bmw ix3" appears as BREAKOUT in CLA rising queries; "bmw i4" appears as BREAKOUT in GLC rising queries. Chinese EV competitive pressure is also visible: "byd seal" BREAKOUT in CLA queries. EQA buyers actively cross-shop with Audi Q4 e-tron (+190%).</p>
-        <p>Note: BMW brand-level index (73) is lower than Mercedes (86). At model level the comparison reverses â€” CLA average interest (76) vs BMW iX3 average interest (15). Brand-level and model-level comparisons tell different stories. Both are stated explicitly with the query string and observation date identified.</p>
+        <p>Note: BMW brand-level index (73) is lower than Mercedes (86). At model level the comparison reverses — CLA average interest (76) vs BMW iX3 average interest (15). Brand-level and model-level comparisons tell different stories. Both are stated explicitly with the query string and observation date identified.</p>
         <div class="table-wrap">
           <table>
             <thead><tr><th>Query</th><th>Figure</th><th>Type</th><th>Observed</th></tr></thead>
@@ -834,22 +834,22 @@
               <tr><td>"cla 2026"</td><td class="mono">+1,300%</td><td>Top queries</td><td>27/06/2026</td></tr>
               <tr><td>"mercedes glc 2026"</td><td class="mono">+4,550%</td><td>Rising</td><td>27/06/2026</td></tr>
               <tr><td>"glc mercedes 2026"</td><td class="mono">+2,050%</td><td>Rising</td><td>27/06/2026</td></tr>
-              <tr><td>"mercedes cla elÃ©trico" (query: "CLA")</td><td class="mono">+250%</td><td>Rising</td><td>27/06/2026</td></tr>
+              <tr><td>"mercedes cla elétrico" (query: "CLA")</td><td class="mono">+250%</td><td>Rising</td><td>27/06/2026</td></tr>
               <tr><td>"mercedes cla eletrico" (query: "Mercedes")</td><td class="mono">+350%</td><td>Rising</td><td>27/06/2026</td></tr>
               <tr><td>"cla shooting brake 2026"</td><td class="mono">BREAKOUT</td><td>Rising</td><td>27/06/2026</td></tr>
               <tr><td>"glc electric 2026"</td><td class="mono">BREAKOUT</td><td>Rising</td><td>27/06/2026</td></tr>
-              <tr><td>"novo glc elÃ©trico"</td><td class="mono">BREAKOUT</td><td>Rising</td><td>27/06/2026</td></tr>
+              <tr><td>"novo glc elétrico"</td><td class="mono">BREAKOUT</td><td>Rising</td><td>27/06/2026</td></tr>
             </tbody>
           </table>
         </div>
         <h3>Configurator</h3>
         <p><strong>Structure:</strong> Sidebar navigation, 9 top-level sections (not numbered sequential steps). Architecturally distinct from BMW (14 sequential steps) and Audi (6 tabs).</p>
-        <p><strong>Entry CTA:</strong> Mercedes leads with stock availability as the primary action â€” "Descubra os veÃ­culos disponÃ­veis" (primary, blue filled) â€” not configuration. BMW and Audi lead with configuration.</p>
-        <p><strong>Price visibility:</strong> Visible from first screen (49.450â‚¬). Financing calculation appears inline in the header when a paid option is selected â€” no other brand surfaces financing this prominently within the configurator itself.</p>
-        <p><strong>Save mechanism:</strong> "Guardar" triggers immediate full-page redirect to Mercedes me ID login wall. Highest primary friction in comparison. Secondary: "Introduzir OnlineCode" on the first configurator screen allows re-entry via shared code with no login â€” frictionless share mechanism not present in BMW or Audi.</p>
-        <p><strong>End screen:</strong> Three paths at "Passo seguinte": "Guardar a configuraÃ§Ã£o" (â†’ Mercedes me ID), "Solicitar veÃ­culo agora" (â†’ dealer lead form), "Mostrar veÃ­culos disponÃ­veis" (â†’ stock listing). "Ir para loja online" on stock cards leads to mercedes-benz.pt/passengercars/buy/ â€” breadcrumb reads "Online Store â€º VeÃ­culos" but sole CTA is "Solicitar proposta" (dealer lead form). Online purchase not live in PT.</p>
+        <p><strong>Entry CTA:</strong> Mercedes leads with stock availability as the primary action — "Descubra os veículos disponíveis" (primary, blue filled) — not configuration. BMW and Audi lead with configuration.</p>
+        <p><strong>Price visibility:</strong> Visible from first screen (49.450€). Financing calculation appears inline in the header when a paid option is selected — no other brand surfaces financing this prominently within the configurator itself.</p>
+        <p><strong>Save mechanism:</strong> "Guardar" triggers immediate full-page redirect to Mercedes me ID login wall. Highest primary friction in comparison. Secondary: "Introduzir OnlineCode" on the first configurator screen allows re-entry via shared code with no login — frictionless share mechanism not present in BMW or Audi.</p>
+        <p><strong>End screen:</strong> Three paths at "Passo seguinte": "Guardar a configuração" (→ Mercedes me ID), "Solicitar veículo agora" (→ dealer lead form), "Mostrar veículos disponíveis" (→ stock listing). "Ir para loja online" on stock cards leads to mercedes-benz.pt/passengercars/buy/ — breadcrumb reads "Online Store › Veículos" but sole CTA is "Solicitar proposta" (dealer lead form). Online purchase not live in PT.</p>
         <p><strong>Mobile parity:</strong> Confirmed identical at 390px. Full parity.</p>
-        <p><strong>Annual report context:</strong> Online Store platform confirmed as existing infrastructure. Eleven markets had converted to direct sales as of 31/12/2024 â€” Portugal is not named.</p>
+        <p><strong>Annual report context:</strong> Online Store platform confirmed as existing infrastructure. Eleven markets had converted to direct sales as of 31/12/2024 — Portugal is not named.</p>
       </div>
     </div>
 
@@ -858,15 +858,15 @@
       <div class="brand-block-header">
         <div class="brand-stripe" style="background:var(--bmw)"></div>
         <h3>BMW</h3>
-        <span class="brand-meta">iX3 40 (Neue Klasse) + i4 eDrive35 Â· 12/06 + 27/06/2026</span>
+        <span class="brand-meta">iX3 40 (Neue Klasse) + i4 eDrive35 · 12/06 + 27/06/2026</span>
       </div>
       <div class="brand-block-body">
         <div class="distinctive-box">
           <span class="finding-label">Distinctive finding</span>
-          <p>BMW has deployed the "Reservar" CTA on the i4 (step 12) but not on the iX3 (step 14). The iX3 is the higher-demand model â€” average index 48 vs i4 average index 38, and BREAKOUT status by 26/06/2026 â€” and it is the one without the digital commitment option. A brand that has solved the Reserve CTA for one model and withheld it from another is not facing a capability gap. It is facing a deployment decision. Three alternative explanations exist and should be named: the iX3 (Neue Klasse) launched in Portugal in March 2026 and may be in a different product lifecycle phase than the i4; the Reserve CTA may depend on an inventory or production allocation model not yet available for the new iX3 generation; or the rollout may be market-sequenced rather than model-sequenced, with Portugal not yet in scope for iX3 reservation. The deployment-decision reading remains the most parsimonious because BMW has demonstrated the technical infrastructure exists within the same market and brand — but these alternatives cannot be ruled out without internal confirmation.</p>
+          <p>BMW has deployed the "Reservar" CTA on the i4 (step 12) but not on the iX3 (step 14). The iX3 is the higher-demand model — average index 48 vs i4 average index 38, and BREAKOUT status by 26/06/2026 — and it is the one without the digital commitment option. A brand that has solved the Reserve CTA for one model and withheld it from another is not facing a capability gap. It is facing a deployment decision. Three alternative explanations exist and should be named: the iX3 (Neue Klasse) launched in Portugal in March 2026 and may be in a different product lifecycle phase than the i4; the Reserve CTA may depend on an inventory or production allocation model not yet available for the new iX3 generation; or the rollout may be market-sequenced rather than model-sequenced, with Portugal not yet in scope for iX3 reservation. The deployment-decision reading remains the most parsimonious because BMW has demonstrated the technical infrastructure exists within the same market and brand � but these alternatives cannot be ruled out without internal confirmation.</p>
         </div>
         <h3>Search demand</h3>
-        <p>BMW holds the second-highest brand-level search interest (index 73). At model level, iX3 average interest (48) outpaces i4 (38) â€” the higher-demand model lacks the Reserve CTA that the lower-demand model has. "ix3 2026" recorded +750% at observation on 12/06/2026 and had reached BREAKOUT status by 26/06/2026.</p>
+        <p>BMW holds the second-highest brand-level search interest (index 73). At model level, iX3 average interest (48) outpaces i4 (38) — the higher-demand model lacks the Reserve CTA that the lower-demand model has. "ix3 2026" recorded +750% at observation on 12/06/2026 and had reached BREAKOUT status by 26/06/2026.</p>
         <div class="table-wrap">
           <table>
             <thead><tr><th>Query</th><th>Figure</th><th>Type</th><th>Observed</th></tr></thead>
@@ -881,10 +881,10 @@
         </div>
         <h3>Configurator</h3>
         <p><strong>Structure:</strong> 14 sequential steps (iX3) / 12 sequential steps (i4). Step counter visible at top left.</p>
-        <p><strong>Price visibility:</strong> Visible from step 1 on both models (iX3: 64.500â‚¬; i4: 61.240â‚¬). Real-time update throughout.</p>
-        <p><strong>Save mechanism:</strong> "Guardar ConfiguraÃ§Ã£o" requires BMW ID (full-page redirect confirmed 27/06/2026). Secondary: "Link do seu BMW" confirmed frictionless, no login (configure.bmw.pt/pt_PT/configid/). No expiry warning observed.</p>
-        <p><strong>End screen â€” iX3 (step 14/14):</strong> Pedido de Proposta Â· Resumo Â· Test Drive Â· Guardar ConfiguraÃ§Ã£o. No "Reservar" CTA. Confirmed desktop (12/06) and mobile 390px (27/06).</p>
-        <p><strong>End screen â€” i4 (step 12/12):</strong> Pedido de Proposta Â· <strong>Reservar</strong> Â· Resumo Â· Test Drive Â· Viaturas DisponÃ­veis Â· Guardar ConfiguraÃ§Ã£o. "Reservar" confirmed desktop (12/06) and mobile 390px (27/06). The iX3 vs i4 CTA gap holds on both devices â€” not a mobile rendering issue.</p>
+        <p><strong>Price visibility:</strong> Visible from step 1 on both models (iX3: 64.500€; i4: 61.240€). Real-time update throughout.</p>
+        <p><strong>Save mechanism:</strong> "Guardar Configuração" requires BMW ID (full-page redirect confirmed 27/06/2026). Secondary: "Link do seu BMW" confirmed frictionless, no login (configure.bmw.pt/pt_PT/configid/). No expiry warning observed.</p>
+        <p><strong>End screen — iX3 (step 14/14):</strong> Pedido de Proposta · Resumo · Test Drive · Guardar Configuração. No "Reservar" CTA. Confirmed desktop (12/06) and mobile 390px (27/06).</p>
+        <p><strong>End screen — i4 (step 12/12):</strong> Pedido de Proposta · <strong>Reservar</strong> · Resumo · Test Drive · Viaturas Disponíveis · Guardar Configuração. "Reservar" confirmed desktop (12/06) and mobile 390px (27/06). The iX3 vs i4 CTA gap holds on both devices — not a mobile rendering issue.</p>
         <p><strong>Direct sales status:</strong> BMW brand Europe direct sales planned for a later date per BMW Group Report 2024. i4 "Reservar" is a reservation, not a purchase.</p>
       </div>
     </div>
@@ -894,20 +894,20 @@
       <div class="brand-block-header">
         <div class="brand-stripe" style="background:var(--audi)"></div>
         <h3>Audi</h3>
-        <span class="brand-meta">Q3 Sportback Advanced â€” 49.899,35â‚¬ Â· 26/06 + 27/06/2026</span>
+        <span class="brand-meta">Q3 Sportback Advanced — 49.899,35€ · 26/06 + 27/06/2026</span>
       </div>
       <div class="brand-block-body">
         <div class="distinctive-box">
           <span class="finding-label">Distinctive finding</span>
-          <p>Audi is the only brand in the comparison using a third-party save portal (carLOG) and the only brand with an explicit configuration expiry warning. carLOG modal copy (verbatim, 27/06/2026): "configuraÃ§Ãµes guardadas podem perder a sua validade, caso existam alteraÃ§Ãµes na gama de produtos." A separate grey-market importer â€” importrust â€” records average search interest of 52, exactly matching Audi Q3 average interest (52). Official funnel demand exists but some is captured outside the Audi digital ecosystem.</p>
+          <p>Audi is the only brand in the comparison using a third-party save portal (carLOG) and the only brand with an explicit configuration expiry warning. carLOG modal copy (verbatim, 27/06/2026): "configurações guardadas podem perder a sua validade, caso existam alterações na gama de produtos." A separate grey-market importer — importrust — records average search interest of 52, exactly matching Audi Q3 average interest (52). Official funnel demand exists but some is captured outside the Audi digital ecosystem.</p>
         </div>
         <h3>Search demand</h3>
-        <p>Audi holds average brand-level search interest of 46 (third of five). The Q3 records average model interest of 51â€“52. "audi q3 2026" at +700% and "audi q3 sportback 2026" BREAKOUT confirm strong model-year demand. Chinese EV competitive pressure is visible: byd and tesla model y both BREAKOUT in Q3 rising queries.</p>
+        <p>Audi holds average brand-level search interest of 46 (third of five). The Q3 records average model interest of 51–52. "audi q3 2026" at +700% and "audi q3 sportback 2026" BREAKOUT confirm strong model-year demand. Chinese EV competitive pressure is visible: byd and tesla model y both BREAKOUT in Q3 rising queries.</p>
         <h3>Configurator</h3>
-        <p><strong>Structure:</strong> 6 named tabs â€” Modelo Â· Linha de equipamento Â· MotorizaÃ§Ã£o Â· Exterior Â· Equipamento Â· O meu Audi. "O meu Audi" is the end/summary tab containing all save options and the end CTA.</p>
-        <p><strong>Price visibility:</strong> Visible from first screen in sticky bottom bar (49.899,00 EUR Â· 803 EUR/mÃªs). Financing monthly value shown alongside price throughout.</p>
-        <p><strong>Save mechanism:</strong> (1) Audi Code â€” pre-generated native code, frictionless, no login. (2) "Guardar" â†’ carLOG modal â€” third-party account required with expiry warning. (3) PDF download â€” frictionless. The carLOG finding is distinctive because it is the only third-party save in the comparison and the only one with an explicit validity warning.</p>
-        <p><strong>End screen:</strong> "Solicitar uma proposta" â€” grey filled, present in left panel and sticky bottom bar. Confirmed 26/06 and 27/06/2026. Dealer form only.</p>
+        <p><strong>Structure:</strong> 6 named tabs — Modelo · Linha de equipamento · Motorização · Exterior · Equipamento · O meu Audi. "O meu Audi" is the end/summary tab containing all save options and the end CTA.</p>
+        <p><strong>Price visibility:</strong> Visible from first screen in sticky bottom bar (49.899,00 EUR · 803 EUR/mês). Financing monthly value shown alongside price throughout.</p>
+        <p><strong>Save mechanism:</strong> (1) Audi Code — pre-generated native code, frictionless, no login. (2) "Guardar" → carLOG modal — third-party account required with expiry warning. (3) PDF download — frictionless. The carLOG finding is distinctive because it is the only third-party save in the comparison and the only one with an explicit validity warning.</p>
+        <p><strong>End screen:</strong> "Solicitar uma proposta" — grey filled, present in left panel and sticky bottom bar. Confirmed 26/06 and 27/06/2026. Dealer form only.</p>
         <p><strong>Mobile parity:</strong> "Solicitar uma proposta" confirmed on mobile 26/06/2026. Full parity.</p>
       </div>
     </div>
@@ -917,22 +917,22 @@
       <div class="brand-block-header">
         <div class="brand-stripe" style="background:var(--volvo)"></div>
         <h3>Volvo</h3>
-        <span class="brand-meta">EX30 (ElÃ©trico) â€” desde 38.632â‚¬ Â· 27/06/2026</span>
+        <span class="brand-meta">EX30 (Elétrico) — desde 38.632€ · 27/06/2026</span>
       </div>
       <div class="brand-block-body">
         <div class="distinctive-box">
           <span class="finding-label">Distinctive finding</span>
-          <p>Volvo's configurator is architecturally unique â€” a single long-scroll page with no step counter, no tabs, and no sidebar. It cannot be described in step-count terms. Volvo is also the only brand showing a stock signal from the first configurator screen. And Volvo has the lowest confirmed save friction in the comparison: frictionless link copy and PDF download require no login at any point.</p>
+          <p>Volvo's configurator is architecturally unique — a single long-scroll page with no step counter, no tabs, and no sidebar. It cannot be described in step-count terms. Volvo is also the only brand showing a stock signal from the first configurator screen. And Volvo has the lowest confirmed save friction in the comparison: frictionless link copy and PDF download require no login at any point.</p>
         </div>
         <h3>Search demand</h3>
-        <p>Volvo holds average brand-level search interest of 25 (fourth of five). The EX30 records average model interest of 54 â€” 14Ã— higher than the EX40 (average index 4). "renting carros" BREAKOUT in EX30 rising queries signals leasing as an emerging primary acquisition path, consistent with the homepage displaying 289â‚¬/mÃªs financing as a hero CTA. Chinese EV competitive signals are the strongest observed for any brand: xpeng, byd, and byd atto 2 all BREAKOUT in EX30 queries.</p>
+        <p>Volvo holds average brand-level search interest of 25 (fourth of five). The EX30 records average model interest of 54 — 14× higher than the EX40 (average index 4). "renting carros" BREAKOUT in EX30 rising queries signals leasing as an emerging primary acquisition path, consistent with the homepage displaying 289€/mês financing as a hero CTA. Chinese EV competitive signals are the strongest observed for any brand: xpeng, byd, and byd atto 2 all BREAKOUT in EX30 queries.</p>
         <h3>Configurator</h3>
         <p><strong>Structure:</strong> Single long-scroll page. No step counter. No tabs or sidebar. Sections scroll sequentially. Architecturally unique in this comparison.</p>
-        <p><strong>Price visibility:</strong> Visible from model selection (desde 38.632â‚¬). Present in sticky header throughout. Final screen: "PreÃ§o final da sua configuraÃ§Ã£o â€” 38.632â‚¬ â€” IVA IncluÃ­do."</p>
-        <p><strong>Stock signal:</strong> Present from the first configurator screen â€” earliest stock signal in comparison. ("Para opÃ§Ãµes com prazos de entrega mais curtos Consulte o stock disponÃ­vel.")</p>
-        <p><strong>Save mechanism:</strong> (1) "Copiar link" â€” confirmed frictionless, no login. (2) PDF download â€” confirmed frictionless. (3) "Guardar" (heart icon) â€” requires Volvo Portal account (modal confirmed 27/06/2026). Lowest overall friction in comparison.</p>
-        <p><strong>End screen:</strong> "Resumo" (outline) + "Pedir proposta" (blue, primary). Individual stock pages (/shop/): "Pedir Proposta" â€” dealer form. /shop/ URL present, purchase not activated. Dealer form only.</p>
-        <p><strong>H3 verdict:</strong> Volvo PT end CTA is "Pedir proposta" â€” dealer form only. Online purchase not live. Annual Report 2024 context: after the UK direct-to-consumer pilot, Volvo explicitly shifted strategy â€” rather than converting complete markets, they are "digitising the business" in collaboration with the retailer network. H3 is invalid.</p>
+        <p><strong>Price visibility:</strong> Visible from model selection (desde 38.632€). Present in sticky header throughout. Final screen: "Preço final da sua configuração — 38.632€ — IVA Incluído."</p>
+        <p><strong>Stock signal:</strong> Present from the first configurator screen — earliest stock signal in comparison. ("Para opções com prazos de entrega mais curtos Consulte o stock disponível.")</p>
+        <p><strong>Save mechanism:</strong> (1) "Copiar link" — confirmed frictionless, no login. (2) PDF download — confirmed frictionless. (3) "Guardar" (heart icon) — requires Volvo Portal account (modal confirmed 27/06/2026). Lowest overall friction in comparison.</p>
+        <p><strong>End screen:</strong> "Resumo" (outline) + "Pedir proposta" (blue, primary). Individual stock pages (/shop/): "Pedir Proposta" — dealer form. /shop/ URL present, purchase not activated. Dealer form only.</p>
+        <p><strong>H3 verdict:</strong> Volvo PT end CTA is "Pedir proposta" — dealer form only. Online purchase not live. Annual Report 2024 context: after the UK direct-to-consumer pilot, Volvo explicitly shifted strategy — rather than converting complete markets, they are "digitising the business" in collaboration with the retailer network. H3 is invalid.</p>
         <p><strong>Mobile parity:</strong> Confirmed at 390px. Identical CTAs. Full parity.</p>
       </div>
     </div>
@@ -942,22 +942,22 @@
       <div class="brand-block-header">
         <div class="brand-stripe" style="background:var(--porsche)"></div>
         <h3>Porsche</h3>
-        <span class="brand-meta">Taycan 2027 â€” 108.016â‚¬ Â· 27/06/2026</span>
+        <span class="brand-meta">Taycan 2027 — 108.016€ · 27/06/2026</span>
       </div>
       <div class="brand-block-body">
         <div class="distinctive-box">
           <span class="finding-label">Contextual note</span>
-          <p>At 108.016â‚¬+, the absence of a digital commitment CTA is deliberate positioning, not a gap. Porsche defines the outer boundary where the thesis stops applying in the same way. The configurator is the most elaborate in the comparison â€” 360Â° view, equipment search box, AI configuration recommendations, Porsche Code share system. High investment in configurator experience with no purchase CTA at the end is a choice. "O seu sonho tornado realidade." No other brand uses this register at checkout.</p>
+          <p>At 108.016€+, the absence of a digital commitment CTA is deliberate positioning, not a gap. Porsche defines the outer boundary where the thesis stops applying in the same way. The configurator is the most elaborate in the comparison — 360° view, equipment search box, AI configuration recommendations, Porsche Code share system. High investment in configurator experience with no purchase CTA at the end is a choice. "O seu sonho tornado realidade." No other brand uses this register at checkout.</p>
         </div>
         <h3>Search demand</h3>
-        <p>Porsche holds the lowest brand-level search interest (index 20) â€” a structurally smaller demand tier that makes the high-touch dealer model rational. The Macan records higher average model interest than the Taycan (50 vs 42). "porsche taycan 2027" at +3,250% is the highest measurable Porsche figure. Taycan buyers cross-shop genuine luxury: Bentley and Lamborghini Urus both BREAKOUT in Taycan rising queries â€” a distinct competitive set from all other brands in this audit.</p>
+        <p>Porsche holds the lowest brand-level search interest (index 20) — a structurally smaller demand tier that makes the high-touch dealer model rational. The Macan records higher average model interest than the Taycan (50 vs 42). "porsche taycan 2027" at +3,250% is the highest measurable Porsche figure. Taycan buyers cross-shop genuine luxury: Bentley and Lamborghini Urus both BREAKOUT in Taycan rising queries — a distinct competitive set from all other brands in this audit.</p>
         <h3>Configurator</h3>
-        <p><strong>Structure:</strong> Single-page scroll with persistent right panel. No step counter. Equipment search box within the configurator â€” unique in this comparison. "Descubra recomendaÃ§Ãµes de configuraÃ§Ã£o" (curated AI recommendations) â€” unique in this comparison.</p>
-        <p><strong>Price visibility:</strong> First appears at model selection (Taycan from 108.016â‚¬ IVA included). Final screen: PreÃ§o Total 108.016,00â‚¬ / PreÃ§o Base 108.016,00â‚¬ / PreÃ§o do equipamento 0,00â‚¬.</p>
-        <p><strong>Save mechanism:</strong> (1) "Criar Porsche Code" â€” confirmed frictionless. (2) PDF download â€” confirmed frictionless. (3) "Guardar" â€” requires Porsche ID (modal confirmed 27/06/2026). Three-tier system.</p>
-        <p><strong>End screen:</strong> "O seu sonho tornado realidade." Primary CTA: "Solicitar este veÃ­culo" (black filled, full width). Secondary: Guardar Â· Criar Porsche Code Â· PDF download. Dealer request only.</p>
-        <p><strong>Direct sales status:</strong> Not live and not planned. Annual and Sustainability Report 2024 confirms indirect online sales via digital platform and sales partners â€” no direct-to-consumer purchase model. "Value over Volume" strategy confirmed by CEO Oliver Blume. Destination Porsche retail concept (150+ of 800+ centres rolled out, ~500 more planned by end of decade) is the primary sales format.</p>
-        <p><strong>Mobile parity:</strong> Full parity confirmed at 390px. Sticky bottom bar: 108.016â‚¬ + "Solicitar veÃ­culo" (black, primary).</p>
+        <p><strong>Structure:</strong> Single-page scroll with persistent right panel. No step counter. Equipment search box within the configurator — unique in this comparison. "Descubra recomendações de configuração" (curated AI recommendations) — unique in this comparison.</p>
+        <p><strong>Price visibility:</strong> First appears at model selection (Taycan from 108.016€ IVA included). Final screen: Preço Total 108.016,00€ / Preço Base 108.016,00€ / Preço do equipamento 0,00€.</p>
+        <p><strong>Save mechanism:</strong> (1) "Criar Porsche Code" — confirmed frictionless. (2) PDF download — confirmed frictionless. (3) "Guardar" — requires Porsche ID (modal confirmed 27/06/2026). Three-tier system.</p>
+        <p><strong>End screen:</strong> "O seu sonho tornado realidade." Primary CTA: "Solicitar este veículo" (black filled, full width). Secondary: Guardar · Criar Porsche Code · PDF download. Dealer request only.</p>
+        <p><strong>Direct sales status:</strong> Not live and not planned. Annual and Sustainability Report 2024 confirms indirect online sales via digital platform and sales partners — no direct-to-consumer purchase model. "Value over Volume" strategy confirmed by CEO Oliver Blume. Destination Porsche retail concept (150+ of 800+ centres rolled out, ~500 more planned by end of decade) is the primary sales format.</p>
+        <p><strong>Mobile parity:</strong> Full parity confirmed at 390px. Sticky bottom bar: 108.016€ + "Solicitar veículo" (black, primary).</p>
       </div>
     </div>
   </section>
@@ -972,24 +972,24 @@
       <div class="h-label">H1</div>
       <h3>Configurator end CTA is the single highest-value optimisation point</h3>
       <p>All five brands show measurable to exceptional search demand, confirmed configurator sessions, and no live digital purchase option in Portugal as of 27/06/2026. The end CTA is the common structural lever across all five.</p>
-      <p>The iX3 vs i4 finding sharpens H1: BMW has demonstrated it can deploy a digital commitment CTA (i4 "Reservar") within the same brand infrastructure. The iX3 â€” the higher-demand model â€” lacks it. This is not a capability gap. It is a deployment decision — the most parsimonious reading given that the infrastructure demonstrably exists within the same market and brand. The implication is that the barrier is rollout prioritisation, not technical readiness. Alternative explanations (iX3 product lifecycle phase, inventory model dependency, market-sequenced rollout) cannot be ruled out without internal confirmation.</p>
-      <div class="metric-note"><strong>Named metric:</strong> Lead submission rate at 7, 14, and 30 days after configurator completion. <strong>Limitation:</strong> requires brand analytics access â€” not available in this audit. Flagged as the primary question that real data access would answer.</div>
+      <p>The iX3 vs i4 finding sharpens H1: BMW has demonstrated it can deploy a digital commitment CTA (i4 "Reservar") within the same brand infrastructure. The iX3 — the higher-demand model — lacks it. This is not a capability gap. It is a deployment decision � the most parsimonious reading given that the infrastructure demonstrably exists within the same market and brand. The implication is that the barrier is rollout prioritisation, not technical readiness. Alternative explanations (iX3 product lifecycle phase, inventory model dependency, market-sequenced rollout) cannot be ruled out without internal confirmation.</p>
+      <div class="metric-note"><strong>Named metric:</strong> Lead submission rate at 7, 14, and 30 days after configurator completion. <strong>Limitation:</strong> requires brand analytics access — not available in this audit. Flagged as the primary question that real data access would answer.</div>
     </div>
 
     <div class="hypothesis-block">
       <div class="h-label">H2</div>
       <h3>Save mechanism friction suppresses return visit value</h3>
-      <p>The GA4 proxy shows a 6.3x conversion lift from first to sixth-plus session (0.78% to 4.94%) in the Google Merchandise Store dataset. This establishes that return visit depth — not simply first vs return — is the relevant variable: conversion compounds progressively across sessions without plateauing through session six. The Audi carLOG finding is the clearest evidence of friction at this point: a third-party save portal with an explicit configuration expiry warning is the only save mechanism in this comparison with no confirmed frictionless alternative â€” and the one most likely to fail a buyer who returns to their saved configuration after a product update.</p>
-      <p>The friction ranking (Volvo lowest â†’ Mercedes highest) maps inversely to the presence and prominence of frictionless secondary paths. All five brands have identified this problem to some degree â€” all offer at least one frictionless alternative. None has eliminated the account requirement for primary save.</p>
-      <div class="metric-note"><strong>Named metric:</strong> Return visit rate for configurator sessions segmented by save mechanism type. <strong>Limitation:</strong> requires brand analytics access â€” not available in this audit.</div>
+      <p>The GA4 proxy shows a 6.3x conversion lift from first to sixth-plus session (0.78% to 4.94%) in the Google Merchandise Store dataset. This establishes that return visit depth � not simply first vs return � is the relevant variable: conversion compounds progressively across sessions without plateauing through session six. The Audi carLOG finding is the clearest evidence of friction at this point: a third-party save portal with an explicit configuration expiry warning is the only save mechanism in this comparison with no confirmed frictionless alternative — and the one most likely to fail a buyer who returns to their saved configuration after a product update.</p>
+      <p>The friction ranking (Volvo lowest → Mercedes highest) maps inversely to the presence and prominence of frictionless secondary paths. All five brands have identified this problem to some degree — all offer at least one frictionless alternative. None has eliminated the account requirement for primary save.</p>
+      <div class="metric-note"><strong>Named metric:</strong> Return visit rate for configurator sessions segmented by save mechanism type. <strong>Limitation:</strong> requires brand analytics access — not available in this audit.</div>
     </div>
 
     <div class="hypothesis-block invalid">
       <div class="h-label">H3 <span class="invalid-badge">Invalid</span></div>
       <h3>Volvo PT is the most digitally advanced funnel and the thesis exception</h3>
-      <p>H3 is invalid. Volvo PT end CTA is "Pedir proposta" â€” dealer form only. The /shop/ URL architecture is built and present on individual stock vehicle pages; the purchase action available is "Pedir Proposta", not a checkout flow. Online purchase is not live in Portugal as of 27/06/2026.</p>
-      <p>The thesis holds uniformly: no brand in this comparison has activated online purchase in Portugal. Volvo's /shop/ URL is the closest signal that e-commerce infrastructure has been built â€” but it has not been activated. H3 is not simply false; the finding is that Volvo is further along the infrastructure path than any other brand, while still resolving to a dealer form at the point of commitment.</p>
-      <div class="metric-note"><strong>Evidence:</strong> Direct observation 27/06/2026. Volvo Cars Annual Report 2024: strategy explicitly moved away from full market conversion after UK pilot â€” "a more pragmatic approach in collaboration with our strong retailer network." Portugal not named as a converted or planned market.</div>
+      <p>H3 is invalid. Volvo PT end CTA is "Pedir proposta" — dealer form only. The /shop/ URL architecture is built and present on individual stock vehicle pages; the purchase action available is "Pedir Proposta", not a checkout flow. Online purchase is not live in Portugal as of 27/06/2026.</p>
+      <p>The thesis holds uniformly: no brand in this comparison has activated online purchase in Portugal. Volvo's /shop/ URL is the closest signal that e-commerce infrastructure has been built — but it has not been activated. H3 is not simply false; the finding is that Volvo is further along the infrastructure path than any other brand, while still resolving to a dealer form at the point of commitment.</p>
+      <div class="metric-note"><strong>Evidence:</strong> Direct observation 27/06/2026. Volvo Cars Annual Report 2024: strategy explicitly moved away from full market conversion after UK pilot — "a more pragmatic approach in collaboration with our strong retailer network." Portugal not named as a converted or planned market.</div>
     </div>
   </section>
 
@@ -1016,28 +1016,28 @@
       <h2>Sources and Observation Log</h2>
     </div>
 
-    <div class="source-entry"><span class="source-dot"></span><span>BMW Group Report 2024 â€” direct sales status, MINI rollout, BMW brand trajectory. Accessed via project knowledge.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Audi Group Combined Annual and Sustainability Report 2024 â€” direct sales status. Accessed via project knowledge.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Mercedes-Benz Group Annual Report 2024 â€” direct sales rollout ("Sales of the Future"): eleven markets converted as of 31/12/2024, ~55% of European passenger car sales. Portugal not named. Online Store platform confirmed. Accessed via project knowledge.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Volvo Cars Annual Report 2024 â€” direct sales strategy: pivoted from full market conversion after UK pilot to "digitising the business" in collaboration with retailer network. Volvo Car Portugal S.A. listed as 100% owned subsidiary. No Portugal direct sales activation mentioned. Accessed via project knowledge.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Porsche AG Annual and Sustainability Report 2024 â€” indirect online sales model confirmed (digital platform + dealer network, no direct-to-consumer purchase). Destination Porsche retail concept primary format. "Value over Volume" strategy. Digital vehicle search in 100+ markets. Accessed via project knowledge.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Google BigQuery public dataset â€” Google Merchandise Store GA4 export, 344,640 sessions. Used for structural funnel patterns only. Not automotive data.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Google Trends PT â€” Mercedes-Benz. Queries: "CLA", "GLC", "EQA", "Mercedes" (five-brand comparison), "CLA" vs "BMW iX3". Web Search Â· Portugal Â· Past year. Observed 27/06/2026.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Google Trends PT â€” BMW. Queries: "BMW iX3", "BMW iX3" vs "BMW i4", "BMW iX3" vs "Audi Q3". Web Search Â· Portugal Â· Past year. Observed 12/06/2026 and 26/06/2026.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Google Trends PT â€” Audi. Queries: "Audi Q3", "audi q3 2026", "importrust". Web and YouTube Â· Portugal Â· Past year. Observed 26/06/2026.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Google Trends PT â€” Volvo. Queries: "Volvo EX30", "Volvo EX40", "BMW iX3" (reference). Web Search Â· Portugal Â· Past year. Observed 27/06/2026.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Google Trends PT â€” Porsche. Queries: "Porsche Taycan", "Porsche Macan", "Mercedes CLA" (reference). Web Search Â· Portugal Â· Past year. Observed 27/06/2026.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Configurator observation â€” mercedes-benz.pt/pt-pt. Model: CLA 200 com tecnologia EQ. Desktop 1440px + mobile 390px. Observed 27/06/2026. 12 screenshots.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Configurator observation â€” bmw.pt. Models: iX3 40 (Neue Klasse) + i4 eDrive35. Desktop 1440px. Observed 12/06/2026. Mobile 390px re-walk: 27/06/2026. 8 screenshots.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Configurator observation â€” configurador.audi.pt. Model: Q3 Sportback Advanced. Desktop 1440px + mobile 390px. Observed 26/06/2026 + re-walk 27/06/2026. 17 screenshots.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Configurator observation â€” volvocars.com/pt. Model: EX30 (ElÃ©trico). Desktop 1440px + mobile 390px. Observed 27/06/2026. 7 screenshots.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Configurator observation â€” porsche.com/pt/pt. Model: Taycan 2027 (Berlina Desportiva). Desktop 1440px + mobile 390px. Observed 27/06/2026. 6 screenshots.</span></div>
-    <div class="source-entry"><span class="source-dot"></span><span>Paid mobile path (checkpoint 9) â€” confirmed for all five brands. Incognito Â· Chrome DevTools 390px Â· PT Â· 27/06/2026. Queries: "mercedes cla elÃ©trico", "bmw ix3 2026", "audi q3 2026", "volvo ex30 elÃ©trico", "porsche taycan 2026". Full findings in fieldwork/checkpoint9-paid-mobile.md.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>BMW Group Report 2024 — direct sales status, MINI rollout, BMW brand trajectory. Accessed via project knowledge.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Audi Group Combined Annual and Sustainability Report 2024 — direct sales status. Accessed via project knowledge.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Mercedes-Benz Group Annual Report 2024 — direct sales rollout ("Sales of the Future"): eleven markets converted as of 31/12/2024, ~55% of European passenger car sales. Portugal not named. Online Store platform confirmed. Accessed via project knowledge.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Volvo Cars Annual Report 2024 — direct sales strategy: pivoted from full market conversion after UK pilot to "digitising the business" in collaboration with retailer network. Volvo Car Portugal S.A. listed as 100% owned subsidiary. No Portugal direct sales activation mentioned. Accessed via project knowledge.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Porsche AG Annual and Sustainability Report 2024 — indirect online sales model confirmed (digital platform + dealer network, no direct-to-consumer purchase). Destination Porsche retail concept primary format. "Value over Volume" strategy. Digital vehicle search in 100+ markets. Accessed via project knowledge.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Google BigQuery public dataset — Google Merchandise Store GA4 export, 344,640 sessions. Used for structural funnel patterns only. Not automotive data.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Google Trends PT — Mercedes-Benz. Queries: "CLA", "GLC", "EQA", "Mercedes" (five-brand comparison), "CLA" vs "BMW iX3". Web Search · Portugal · Past year. Observed 27/06/2026.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Google Trends PT — BMW. Queries: "BMW iX3", "BMW iX3" vs "BMW i4", "BMW iX3" vs "Audi Q3". Web Search · Portugal · Past year. Observed 12/06/2026 and 26/06/2026.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Google Trends PT — Audi. Queries: "Audi Q3", "audi q3 2026", "importrust". Web and YouTube · Portugal · Past year. Observed 26/06/2026.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Google Trends PT — Volvo. Queries: "Volvo EX30", "Volvo EX40", "BMW iX3" (reference). Web Search · Portugal · Past year. Observed 27/06/2026.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Google Trends PT — Porsche. Queries: "Porsche Taycan", "Porsche Macan", "Mercedes CLA" (reference). Web Search · Portugal · Past year. Observed 27/06/2026.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Configurator observation — mercedes-benz.pt/pt-pt. Model: CLA 200 com tecnologia EQ. Desktop 1440px + mobile 390px. Observed 27/06/2026. 12 screenshots.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Configurator observation — bmw.pt. Models: iX3 40 (Neue Klasse) + i4 eDrive35. Desktop 1440px. Observed 12/06/2026. Mobile 390px re-walk: 27/06/2026. 8 screenshots.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Configurator observation — configurador.audi.pt. Model: Q3 Sportback Advanced. Desktop 1440px + mobile 390px. Observed 26/06/2026 + re-walk 27/06/2026. 17 screenshots.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Configurator observation — volvocars.com/pt. Model: EX30 (Elétrico). Desktop 1440px + mobile 390px. Observed 27/06/2026. 7 screenshots.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Configurator observation — porsche.com/pt/pt. Model: Taycan 2027 (Berlina Desportiva). Desktop 1440px + mobile 390px. Observed 27/06/2026. 6 screenshots.</span></div>
+    <div class="source-entry"><span class="source-dot"></span><span>Paid mobile path (checkpoint 9) — confirmed for all five brands. Incognito · Chrome DevTools 390px · PT · 27/06/2026. Queries: "mercedes cla elétrico", "bmw ix3 2026", "audi q3 2026", "volvo ex30 elétrico", "porsche taycan 2026". Full findings in fieldwork/checkpoint9-paid-mobile.md.</span></div>
   </section>
 
   <footer>
-    <p>Premium Automotive Digital Audit â€” Portugal 2026 Â· Sara Cruz Â· Version 1.0 Â· 27/06/2026</p>
-    <p>Observations have an expiry â€” configurators change. All findings valid at stated observation dates only.</p>
+    <p>Premium Automotive Digital Audit — Portugal 2026 · Sara Cruz · Version 1.0 · 27/06/2026</p>
+    <p>Observations have an expiry — configurators change. All findings valid at stated observation dates only.</p>
   </footer>
 
 </main>
