@@ -9,7 +9,7 @@
 
 ## Distinctive finding
 
-The iX3 vs i4 CTA gap within a single brand is the clearest BMW-specific finding. BMW has deployed the Reserve CTA on the i4 (step 12) but not on the iX3 (step 14). The iX3 is the higher-demand model — BREAKOUT status by 26/06/2026 — and the one without the digital commitment option. A brand that has solved the Reserve CTA for one model and withheld it from another is not facing a capability gap. It is facing a deployment decision. That distinction is the finding.
+The iX3 vs i4 CTA gap within a single brand is the clearest BMW-specific finding. BMW has deployed the Reserve CTA on the i4 (step 12) but not on the iX3 (step 14). The iX3 is the higher-demand model — BREAKOUT status by 26/06/2026 — and the one without the digital commitment option. A brand that has solved the Reserve CTA for one model and withheld it from another is not facing a capability gap. It is facing a deployment decision — the most parsimonious reading given that the infrastructure demonstrably exists within the same market and brand. Three alternative explanations exist and should be named: the iX3 (Neue Klasse) launched in Portugal in March 2026 and may be in a different product lifecycle phase than the i4; the Reserve CTA may depend on an inventory or production allocation model not yet available for the new iX3 generation; or the rollout may be market-sequenced rather than model-sequenced, with Portugal not yet in scope for iX3 reservation. These alternatives cannot be ruled out without internal confirmation.
 
 ---
 
