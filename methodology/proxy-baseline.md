@@ -32,3 +32,18 @@ The proxy establishes the pattern. Direct observation and search data establish 
 ## Where this appears in the final document
 
 Once, in the methodology section. It is not repeated per brand. Brand sections do not cite these figures as their own.
+
+## Google Trends — methodology note
+Source: Google Trends PT · Web Search · Past 12 months · observed at stated dates.
+
+Trends indices are relative, not absolute. Each value (0–100) represents search interest
+relative to the highest point in the selected time window for that query. This means:
+
+- The same query observed on a different date will return a different index value.
+- Indices cannot be compared across different queries or brands as absolute measurements.
+- BREAKOUT status (>5000% increase) and percentage rises in rising/top queries are
+  directional signals, not precise figures.
+
+All index values in this audit are stated with their observation date and time window.
+They are used to establish relative demand tiers and directional trends only.
+No brand-specific claim is made that depends on an index value being stable or precise.
